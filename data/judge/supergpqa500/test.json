@@ -1,0 +1,2002 @@
+[
+  {
+    "problem": "If we tetrahedralize a regular triangular prism, how many ways of tetrahedralization are legal? (Each vertex is different)",
+    "answer": "6"
+  },
+  {
+    "problem": "The number of physical page frames is 4, and the virtual page access sequence is 0,3,2,0,1,3,4,3,1,0,3,2,1,3,4. What is the number of page faults when using the CLOCK replacement algorithm (using 1 bit to indicate the presence time)?",
+    "answer": "9"
+  },
+  {
+    "problem": "The number of asymptotes of the curve \\( y = \\frac{x^2 + x}{x^2 - 1} \\) is ( ).",
+    "answer": "2"
+  },
+  {
+    "problem": "Determine the smallest positive integer $d$ such that for any polynomial $p(x)$ with integer coefficients and any integer $k$, the value \\[ p^{(d)}(k) = \\left. \\frac{d^d}{dx^d} p(x) \\right|_{x=k} \\] (the $d$-th derivative of $p(x)$ evaluated at $k$) is divisible by 2016.",
+    "answer": "8"
+  },
+  {
+    "problem": "Let $A=\\{(x,y):0\\leq x,y<1\\}$. For $(x,y)\\in A$, let \\[S(x,y) = \\sum_{\\frac{1}{2}\\leq \\frac{m}{n}\\leq 2} x^m y^n,\\] where the sum ranges over all pairs $(m,n)$ of positive integers satisfying the indicated inequalities. Evaluate \\[\\lim_{(x,y)\\rightarrow (1,1), (x,y)\\in A} (1-xy^2)(1-x^2y)S(x,y).\\]",
+    "answer": "3"
+  },
+  {
+    "problem": "Calculate $E = \\frac{ \\cos(70) \\cdot \\cos(10) + \\cos(80) \\cdot \\cos(20) }{ \\cos(68) \\cdot \\cos(8) + \\cos(82) \\cdot \\cos(22) }$.",
+    "answer": "1"
+  },
+  {
+    "problem": "$A$ , $B$ , and $C$ are chosen randomly on a unit circle. Let $H$ be the orthocenter of triangle $ABC$ , and let region $R$ be the locus of $H$ . The area of region $R$ can be expressed as $n\\pi$ , for some integer $n$ . Compute $n$ .",
+    "answer": "9"
+  },
+  {
+    "problem": "Let $C_1$ and $C_2$ be circles whose centers are 10 units apart, and whose radii are 1 and 3. Find the absolute difference between the inner and outer radius of the locus of all points $M$ for which there exists points $X$ on $C_1$ and $Y$ on $C_2$ such that $M$ is the midpoint of the line segment $XY$.",
+    "answer": "2"
+  },
+  {
+    "problem": "For any positive integer $n$, let $\\langle n\\rangle$ denote the closest integer to $\\sqrt{n}$. Evaluate \\[\\sum_{n=1}^\\infty \\frac{2^{\\langle n\\rangle}+2^{-\\langle n\\rangle}} {2^n}.\\]",
+    "answer": "3"
+  },
+  {
+    "problem": "Calculate $E = \\frac{ 1 }{ \\sin(10) } - \\frac{ \\sqrt{3} }{ \\cos(10) }$.",
+    "answer": "4"
+  },
+  {
+    "problem": "Let $P(x)$ be a polynomial of degree $10$ satisfying $P(x^2) = P(x)P(x - 1)$ . Find the maximum possible sum of the coecients of $P(x)$ .",
+    "answer": "1"
+  },
+  {
+    "problem": "Evaluate \\[ \\sum_{k=1}^\\infty \\frac{(-1)^{k-1}}{k} \\sum_{n=0}^\\infty \\frac{1}{k2^n + 1}. \\]",
+    "answer": "1"
+  },
+  {
+    "problem": "For every positive real number $x$, let \\[ g(x) = \\lim_{r \\to 0} ((x+1)^{r+1} - x^{r+1})^{\\frac{1}{r}}. \\] Find $\\lim_{x \\to \\infty} \\frac{g(x)}{x}$.",
+    "answer": "e"
+  },
+  {
+    "problem": "Find the minimum value of \\[\\frac{(x+1/x)^6-(x^6+1/x^6)-2}{(x+1/x)^3+(x^3+1/x^3)}\\] for $x>0$.",
+    "answer": "6"
+  },
+  {
+    "problem": "Find $L=\\lim_{n \\to \\infty}\\left(x_{n}\\right)$, where $x_{n} = \\frac{ \\sqrt{n^2+1} + \\sqrt{n} }{ \\sqrt[4]{n^3+n} - \\sqrt{n} }$ is the general term of a sequence.",
+    "answer": "∞"
+  },
+  {
+    "problem": "Let $n$ be the smallest positive integer for which there exist positive real numbers $a$ and $b$ such that $(a+bi)^n=(a-bi)^n$ , where $i=\\sqrt{-1}.$ . Compute $\\frac{b^2}{a^2}$ .",
+    "answer": "3"
+  },
+  {
+    "problem": "Consider the set $\\{1,2,\\dots,a\\}$ and all its nonempty subsets, which we'll denote as $F_1, F_2, \\dots, F_{2^a-1}$ in any arbitrary order. Now, construct a matrix $R$ of size $(2^a-1) \\times (2^a-1)$ where each element $m_{ij}$ is defined as follows: \\[ m_{ij} = \\begin{cases} 1 & \\text{if $F_i$ and $F_j$ have at least one element in common,} \\\\ 0 & \\text{if $F_i$ and $F_j$ are disjoint.} \\end{cases} \\]Your task is to evaluate the determinant of $R$. In case multiple determinant values are possible, compute the sum of all distinct determinant values.",
+    "answer": "0"
+  },
+  {
+    "problem": "Consider the following function $g(x)$ defined as\n$$(x^{2^{2008}-1}-1)g(x) = (x+1)(x^2+1)(x^4+1)\\cdots (x^{2^{2007}}+1) - 1$$\nFind $g(2)$ .",
+    "answer": "2"
+  },
+  {
+    "problem": "Consider a function $e(s)$ defined for all positive real numbers $s$ as follows: \\[ e(s) = \\lim_{z \\to 0} \\left((s+1)^{z+1} - s^{z+1}\\right)^{{1}/{z}}. \\] Determine the value of $\\lim_{s \\to \\infty} \\frac{e(s)}{s}$.",
+    "answer": "e"
+  },
+  {
+    "problem": "Which combination correctly identifies the social dance that originated in the Dominican Republic in the 1960s? Consider the following dances:\nI. Bachata\nII. Salsa\nIII. Tango\nIV. Merengue\nSelect the option that correctly describes the dance.",
+    "answer": "I"
+  },
+  {
+    "problem": "In the following sentence 'Les ailes du moulin pour tourner, doivent recevoir obliquement l'impression du vent', which stylistic figure(s) can be identified? Consider the following stylistic figures:\nI. Hypallage\nII. Catachresis\nIII. Zeugma\nIV. Emphasis\nSelect the correct combination of stylistic figures present in the sentence.",
+    "answer": "I"
+  },
+  {
+    "problem": "Among the following methods for predicting urban population size, which one can be independently applied and used as the primary prediction result? Consider the following methods:\nI. Comprehensive Balancing Method\nII. Environmental Capacity Method\nIII. Regional Population Allocation Method\nIV. Analogy Method\nSelect the method that can be independently applied and used as the primary prediction result.",
+    "answer": "I"
+  },
+  {
+    "problem": "Which of the following options is considered a medical accident? Consider the following scenarios:\nI. Amniotic fluid embolism\nII. Drug allergy\nIII. Organ adhesion at surgical site\nIV. Hospital-acquired infection\nSelect the correct combination.",
+    "answer": "I"
+  },
+  {
+    "problem": "How many object arguments can a non-static member function, which overloads a binary operator, accept at most?",
+    "answer": "1"
+  },
+  {
+    "problem": "Find the number of elements in the indicated cyclic group: The cyclic subgroup of Z_30 generated by 25.",
+    "answer": "6"
+  },
+  {
+    "problem": "Six individuals, including \\(\\mathrm{A}\\) and \\(\\mathrm{B}\\), take seats around\n\\(\\mathrm{a}\\) circular table in a completely random fashion. Suppose the seats\nare numbered \\(1, \\ldots, 6\\). Let \\(X=\\) A's seat number and \\(Y=\\mathrm{B}\\) 's\nseat number. If A sends a written message around the table to \\(B\\) in the\ndirection in which they are closest, how many individuals (including \\(A\\) and\n\\(B\\) ) would you expect to handle the message?",
+    "answer": "3"
+  },
+  {
+    "problem": "Number of ATP required for synthesis of 1 mole of urea is:",
+    "answer": "3"
+  },
+  {
+    "problem": "In a study there were 35 cases of lung carcinoma and 82 controls were there. On taking history, 33 cases had positive history of smoking and 55 individuals among controls had positive history of smoking. What is the odds ratio-",
+    "answer": "8"
+  },
+  {
+    "problem": "How many types of Viscosities are there?",
+    "answer": "2"
+  },
+  {
+    "problem": "There is a type of pumpkin that weighs an average of 2.5 kg, and another variety that weighs an average of 1 kg. The hybrid offspring (F1) of these two varieties have an average weight of 1.75 kg. When F1 are crossbred, they produce 200 F2, with weights ranging from 1 to 2.5 kg. Among them, approximately 3 weigh around 2.5 kg, and another 3 weigh around 1 kg. How many pairs of genes control the weight of these two types of pumpkins?",
+    "answer": "3"
+  },
+  {
+    "problem": "Let the sum of all the digits of $3^{10000}$ be $\\mathrm{A}$, the sum of all the digits of $\\mathrm{A}$ be $\\mathbf{B}$, and the sum of all the digits of $\\mathbf{B}$ be $\\mathrm{C}$. Find the value of $\\mathrm{C}$.",
+    "answer": "9"
+  },
+  {
+    "problem": "How much is $\\begin{aligned}\\sqrt{\\sqrt[3]{4}-1}\\:+\\:\\sqrt{\\sqrt[3]{16}\\:-\\sqrt[3]{4}}\\:\\end{aligned}$?",
+    "answer": "3"
+  },
+  {
+    "problem": "Consider a planar dielectric waveguide, where the refractive indices for each layer are $n_{1}=2.21$, $n_{2}=2.1$, and $n_{3}=1$, and the waveguide layer thickness is $d=4.6 \\mu m$. If the total internal reflection phase shift is $\\frac{3}{2} \\pi$, what is the total number of modes that can propagate in the waveguide when the incident light wavelength is $1.31 \\mu m$?",
+    "answer": "5"
+  },
+  {
+    "problem": "What is the sum of the residues of the function $f(z) = \\frac{z^{13}}{(z^{2}-1)(z^{8}+1)}$ at all finite singularities in the complex plane?",
+    "answer": "1"
+  },
+  {
+    "problem": "Given that polypropylene containing a nucleating agent forms spherulites during isothermal crystallization, the Avrami index $n$ is ().",
+    "answer": "3"
+  },
+  {
+    "problem": "The data link layer employs the Go-Back-$N$ protocol for flow control and error control. The sender has already transmitted frames numbered $0-6$. Upon timer expiration, only acknowledgments for frames 1, 3, and 5 have been received. The number of frames the sender needs to retransmit is ( ).",
+    "answer": "1"
+  },
+  {
+    "problem": "Between two hosts, the data link layer uses the Go-Back-N (GBN) protocol for data transmission. The data transmission rate is 16 kb/s, with a one-way propagation delay of 270 ms. The data frame length ranges from 128 to 512 bytes, and the receiver always acknowledges with frames of equal length to the data frames. To maximize channel utilization, the minimum number of bits required for the frame sequence number is ().",
+    "answer": "4"
+  },
+  {
+    "problem": "The electronic configuration 2p3d can form $^3 {\\bf D}_{3, \\mathrm{2, \\mathrm{1}}}$, and 2s2p can form $^3 \\mathrm{P}_{2, ~ 1, ~ 0}, ~ ~^{3} \\mathrm{D}_{3, ~ 2, ~ 1} \\to^{3} \\mathrm{P}_{2, ~ 1,0}$ . How many spectral lines are produced by electric dipole radiation transitions?",
+    "answer": "0"
+  },
+  {
+    "problem": "When a certain atom is in the quintet state $^{5}F$, the total magnetic moment is 0. What is its total angular momentum quantum number?",
+    "answer": "1"
+  },
+  {
+    "problem": "The fracture strength of glass may be increased by etching away a thin suface layer. It is believed that the etching may alter surface crack geometry (ie., reduce the crack length and increase the tip radus). Compute the ratio of the etched and original cracktip radi for a fufol i inceasein frature strength if hlfof the crack length is removed is().",
+    "answer": "8"
+  },
+  {
+    "problem": "How many planetary scale systems affect precipitation in China?",
+    "answer": "4"
+  },
+  {
+    "problem": "How many levels of fissures in a tectonic fissure network can be categorized according to their size?",
+    "answer": "3"
+  },
+  {
+    "problem": "Current methods for studying fractured media can be divided into several categories?",
+    "answer": "3"
+  },
+  {
+    "problem": "How many realms can the terrestrial fauna of the world be divided into?",
+    "answer": "6"
+  },
+  {
+    "problem": "When a binary alloy is at a low eutectic temperature, what is the degree of freedom of the system?",
+    "answer": "0"
+  },
+  {
+    "problem": "How many stages are generally involved in the combustion process of a diesel engine?",
+    "answer": "4"
+  },
+  {
+    "problem": "There is an 8-way merged winner tree with elements 10,9,20,6,8,23,21,17 as leaf nodes. After outputting an element, a new element will be added to the corresponding leaf node. How many elements should be corrected in the reconstructed winning tree?",
+    "answer": "3"
+  },
+  {
+    "problem": "Let $h(n)=3(1/2)^{n}u(n)$ be the unit impulse response of a linear time-invariant system, and suppose the input $x(n)=u(n)$, $y(n)$ represents the output.What is $\\operatorname* {lim}_{n\\to n}y(n)$?",
+    "answer": "6"
+  },
+  {
+    "problem": "Using singly linked lists to store two ordered lists each with n elements, the minimum number of comparisons required to merge them into one ordered list is ().",
+    "answer": "n"
+  },
+  {
+    "problem": "How many layers are there on the exterior of the Yingxian Wooden Pagoda?",
+    "answer": "5"
+  },
+  {
+    "problem": "What are the main categories of building types on a macro level?",
+    "answer": "3"
+  },
+  {
+    "problem": "In order to avoid the decomposition of anthraquinone due to excessively high temperatures, fuming sulfuric acid is generally used for the sulfonation of anthraquinone. When sulfonated, sulfonation reactions tend to occur on the () benzene rings.",
+    "answer": "2"
+  },
+  {
+    "problem": "How many auxiliary equations are used to establish a numerical simulation model for one-dimensional oil-water two-phase water flooding without considering capillary forces?",
+    "answer": "1"
+  },
+  {
+    "problem": "Measure the length of the four sides of a square. If the observational error of each measurement is ±2 cm, then the mean error of the perimeter of the square is ±()cm.",
+    "answer": "4"
+  },
+  {
+    "problem": "In a single-tone bandwidth FM system. If the FM sensitivity $k_{\\mathrm{F M}}$ is increased by 1 times, how many times is the maximum frequency offset increased?",
+    "answer": "1"
+  },
+  {
+    "problem": "For bounded formation unsteady seepage, pressure wave propagation can be divided into ( ) stages.",
+    "answer": "3"
+  },
+  {
+    "problem": "In rice, A is completely dominant over a, and B is completely dominant over b. When Ab/aB genotype plants are self-pollinated, the type with the lowest number of individuals among their offspring accounts for 0.16% of the total progeny. What is the genetic distance (in map units) between the A-a and B-b loci?",
+    "answer": "8"
+  },
+  {
+    "problem": "In Mode II of Messiaen's limited transposition modes, the scale consists of an octatonic scale formed by alternating half and whole steps. The total number of Mode II scales is ( ).",
+    "answer": "3"
+  },
+  {
+    "problem": "Which of the following statements about chords are correct? ( )\n① There are 2 common chords between C major harmony and c natural minor harmony\n② The Neapolitan sixth chords in C major and c minor are identical\n③ The chords adjacent to the Neapolitan sixth chord are composed of minor third and perfect fourth intervals",
+    "answer": "2"
+  },
+  {
+    "problem": "Find the solution for the equationX=AX+bu;X(0) = X_0 where A=\\vert10\\vert,b=\\vert1\\vert,X_0 =\\vert- 1\\vert, \\vert- 22\\vert\\vert2\\vert\\vert0\\vert u(t) = \\delta(t) (impulse function).",
+    "answer": "0"
+  },
+  {
+    "problem": "Find the order of the factor group (Z_11 x Z_15)/(<1, 1>)",
+    "answer": "1"
+  },
+  {
+    "problem": "Arbitrarily place 19 points in a unit square and cover as many of these points as possible with a circle of diameter $\\frac{\\sqrt 2}{3}$. Question: At least how many points can be guaranteed to be covered?",
+    "answer": "3"
+  },
+  {
+    "problem": "If polygon ACDF is similar to polygon VWYZ, AF = 12, CD = 9, YZ = 10, YW = 6, and ZV = 3y-1, find y.",
+    "answer": "3"
+  },
+  {
+    "problem": "In the group G = {2, 4, 6, 8) under multiplication modulo 10, the identity element is",
+    "answer": "6"
+  },
+  {
+    "problem": "A projectile is thrown with some initial velocity u at an angle q to the horizontal. Its speed when it is at the highest point is$\\sqrt{\\cfrac{2}{5}}$ times the speed $V$ when it is at height half of the maximum height. Then ratio $\\cfrac{v}{u}=\\sqrt{\\cfrac{n}{8}}$ Find the value of $n.$",
+    "answer": "3"
+  },
+  {
+    "problem": "Length of the latus rectum of the parabola $25\\left[ { \\left( x-2 \\right)  }^{ 2 }+{ \\left( y-3 \\right)  }^{ 2 } \\right] ={ \\left( 3x-4y+7 \\right)  }^{ 2 }$ is",
+    "answer": "4"
+  },
+  {
+    "problem": "An insect jumps from ball A onto ball B, which are suspended from inextensible light strings each of length L = 8 cm. The mass of each ball and insect is same. What should be the minimum relative velocity (in $ms^{-1}$) of jump of insect w.r.t. ball A,  if both the balls manage to complete the full circle?",
+    "answer": "8"
+  },
+  {
+    "problem": "A slab of thickness 10 cm is kept on x-y (z=0) and its refractive index varies as $ \\mu=1.63 (1+ \\frac  {Z}{20} ) $ where Z is in cm. if it is viwed from top its apparent thickness will be (in cm)",
+    "answer": "4"
+  },
+  {
+    "problem": "A ray emanating from the point (0, 6) is incident on the ellipse$25x^{2}+16y^{2} = 1600$  at the point P with ordinate S. After reflection, ray cuts the Y- axis at B.  The length of PB is",
+    "answer": "5"
+  },
+  {
+    "problem": "How many ways are there to resolve stereo image pairs?",
+    "answer": "3"
+  },
+  {
+    "problem": "A finite square grid, each link having resistance $r$, is fitted in a resistance-less conducing circular wire. Determine the equivalent resistance between $A$ and $B$ (in $\\Omega$) if $r =(80/7)\\Omega$",
+    "answer": "6"
+  },
+  {
+    "problem": "How many double diminished intervals can be formed within an octave downwards from the note ♯F?",
+    "answer": "1"
+  },
+  {
+    "problem": "How many ways are there to reduce the E-B interval to a diminished fifth?",
+    "answer": "4"
+  },
+  {
+    "problem": "How many of Jacob Abraham Camille Pissarro's seven children also became painters?",
+    "answer": "6"
+  },
+  {
+    "problem": "On August 2, 2017, the Supreme Court of India sentenced Neera Yadav, a former officer of the Indian Administrative Service (IAS), to how many years of imprisonment in the Noida land allotment scam?",
+    "answer": "2"
+  },
+  {
+    "problem": "How many longitudinal veins does the stable fly (Stomoxys calcitrans) have?",
+    "answer": "6"
+  },
+  {
+    "problem": "How many birthdays did \"Granny D\" Haddock have during her famous cross-country walk that began in California in 1999?",
+    "answer": "2"
+  },
+  {
+    "problem": "In the following concepts regarding the in agricultral machinery, which of the following statements are correct? (Need to include all correct options):\nA. Blanching enhances the sensory properties and nutritional value of fruits and vegetables by activating enzymes that preserve color, aroma, and texture while increasing soluble nutrient content.\nB. DEM simulations treat soil and crops as a continuum, much like traditional finite element analysis, providing a less practical approach to analyzing interactions between agricultural machinery and discrete matter.\nC. Vegetable seed size and plant architecture are inversely proportional to the complexity of mechanization systems, meaning simpler plants require more complex machinery.\nD. The chopped crop is expelled through the discharge spout to the trailer. The discharge spout has a modular design in order to adjust to different working widths. Spout extensions are available to get the optimum discharge distance for harvesting with large headers.\nE. Rapid drying at high temperatures is the most effective method for lowering grain moisture content from 25% to 15%, preventing internal tensions and cracks that compromise grain integrity.",
+    "answer": "D"
+  },
+  {
+    "problem": "The time (hour) when a daughter radionuclid. (T1/2 = 1 hour) reaches approximate equilibrium with its long-lived parent is most likely ().",
+    "answer": "4"
+  },
+  {
+    "problem": "To use a packed tower for countercurrent absorption of harmful component A from a mixed gas using water. It is known that the concentration of component A entering the tower is $y_{\\mathrm{in}}=0.05$ (mole fraction, same below), and a recovery rate of 90% is required. The equilibrium relationship is given by $y=2x$, with $H_{\\mathrm{OG}}=0.8 \\mathrm{m}$. The liquid-to-gas ratio is 1.5 times the minimum liquid-to-gas ratio. If the concentration of component A entering the tower changes to $y_{\\mathrm{in}}=0.1$, with other design conditions remaining unchanged, and a plate tower is used instead, how many theoretical plates are required?",
+    "answer": "5"
+  },
+  {
+    "problem": "The spacing between the mirrors of a He-Ne laser is 0.2m. If the gain curve width is $1.5 \\times 10^{9} \\mathrm{Hz}$, then how many possible longitudinal modes could be induced?",
+    "answer": "3"
+  },
+  {
+    "problem": "Let $G$ be a group.\\\nLet $G \\,=\\, D_{8}$ be the dihedral group with 8 elements. What are the dimensions of its irreducible representations over C?",
+    "answer": "8"
+  },
+  {
+    "problem": "How many types of rapids that produce heavy rainfall are classified by height?",
+    "answer": "3"
+  },
+  {
+    "problem": "Within an octave of natural intervals, how many dissonant intervals are there?",
+    "answer": "5"
+  },
+  {
+    "problem": "Watson and Noble (2005) lay out a five-step model for circular evaluation. At which step should pre-testing of strategy and tactics be carried out?",
+    "answer": "3"
+  },
+  {
+    "problem": "A gaseous mixture enclosed in a vessel of volume V consists of one mole of a gas A with $\\gamma$ = $\\dfrac { 5 }{ 3 }$ and another gas B with $\\gamma$ = $\\dfrac { 7 }{ 5 }$ at a certain temperature T. the molar masses of the gases A and B are 4 and 32, respectively. The gases A and B do not reach with each other and are assumed to be ideal. The gaseous mixture follows the equation P${ V }^{ \\dfrac { 19 }{ 13 }  }$ = constant, in adiabatic processes. The number of moles of the gas B in the gaseous mixture.",
+    "answer": "2"
+  },
+  {
+    "problem": "A uniform electric field of magnitude $100 \\mathrm { V } / \\mathrm { m }$ in space is directed along the line $y = 3 + x$ . Find the electric potential difference between $( 1,3 )$ and $( 3,1 )$",
+    "answer": "0"
+  },
+  {
+    "problem": "Magnetic flux linked with a stationary loop of resistance $4W$ varies with respect to time during the time period $2$ second, as $f=3t(2-t)$ the amount of heat generated (in joules) during that time is",
+    "answer": "2"
+  },
+  {
+    "problem": "A bob B of mass 1 kg is suspended from the ceiling of a toy train. The train oscillates simple harmonically in horizontal direction with angular frequency $\\Theta =5rad/s$ and amplitude a =0.1 m. What is the ratio of maximum and minimum tensions in the string AB during the motion $(g=10{ ms }^{ -2 }\\quad $&$ \\quad tan\\quad { 37 }^{ \\circ  }=3/4)$",
+    "answer": "2"
+  },
+  {
+    "problem": "A steady current I goes through a wire loop PQR having shape of a right angle triangle with PQ = 3x, PR = 4x and QR = 5x. If the magnitude of the magnetic field at P due to this loop is k$\\left (\\dfrac{\\mu_0I}{48\\pi x} \\right )$ find the value of k.",
+    "answer": "7"
+  },
+  {
+    "problem": "For two particles A and B (moving with constant velocities) to collide, relative velocity of A with respect to B should be along AB At time t = 0, particle A is at (1m, 2m) and B is at (5m, 5m). Velocity of B along x-direction is 2 $m s ^ { - 1 }$  and along y-direction is 4  $m s ^ { - 1 }$. Velocity of particle A is $\\sqrt { 2 }$ at $45 ^ { \\circ }$ with the x-axis. A collides with B. Value of v is ........ $m s ^ { - 1 }$",
+    "answer": "5"
+  },
+  {
+    "problem": "A uniform rod AB of mass 2kg and length 1m is placed on a sharp support O such that AO=0.4 m and OB=0.6 m. A spring of force constant k=600 N/m is attached to end B. To keep the rod horizontal, its end A is tied with a thread such that spring is elongated by 1 cm. If reaction of support O on the rod when thread is burnt is R, then the value of $\\dfrac { R }{ 10 } $ is:",
+    "answer": "4"
+  },
+  {
+    "problem": "If two solution of strong acids of pH =2 and pH=4 be mixed in volume ratio 1:z, the pH of resulting solution was founds to be 2.75, then z is (log 1.75=0.25)",
+    "answer": "2"
+  },
+  {
+    "problem": "One mole of ammonium carbamate dissociate as shown below at $500K$\n${NH}_{3}COO{NH}_{4(s)\\rightleftharpoons  2{NH}_{3}(g}+{CO}_{2}(g)$. If the pressure exerted by the released gases is $3.0$ atm, the value of ${K}_{p}$ is (standard state $=1atm$)",
+    "answer": "4"
+  },
+  {
+    "problem": "Two opposite forces $F_1 = 120N \\:and \\:F_2 = 80N$ act on an heavy elastic plank of modulus of elasticity $y=2\\times 10^{11}N/m^2$ and length $L = 1m$ placed over a smooth horizontal surface. The cross-sectional area of plank is $A = 0.5m^2$. If the change in the length of plank is (in nm )",
+    "answer": "1"
+  },
+  {
+    "problem": "The value of ${ log }_{ 10 }$K for a reaction $A\\leftrightharpoons B$ is ::\n(Given-${ \\Delta  }_{ r }{ H }^{ \\circ  }_{ 298\\quad K }=-54.07KJ\\quad mol^{ -1 }$, ${ \\Delta  }_{ r }{ S }^{ \\circ  }_{ 298\\quad K }=10KJ^{ -1 }\\quad mol^{ -1 }$ and $R=8.314JK^{ -1 }\\quad mol^{ -1 }$; 2303*8314*298=5705)",
+    "answer": "5"
+  },
+  {
+    "problem": "The potential energy of a 1$\\mathrm { kg }$ particle free to move alongthe $x$ -axis is given by$V ( x ) = \\left( \\frac { x ^ { 4 } } { 4 } - \\frac { x ^ { 2 } } { 2 } \\right) J$\nThe total mechanical energy of the particle is $21 .$ Then, the maximum speed (in ms $^ { 1 }$ ) is",
+    "answer": "2"
+  },
+  {
+    "problem": "A cylinderical rod has breaking stress ${ 10 }^{ 5 }N/{ m }^{ 2 }$ .The maximum possible length of the rod that can hang freely vertically downwards under gravity is 4m. If g = ${ 10 }m/{ s }^{ 2 }$, the density of the material is CGS units is :",
+    "answer": "1"
+  },
+  {
+    "problem": "A spring is of mass M=3 kg and spring constant $ k= 4 \\pi^2 N/m $ . the spring lies on a frictionless surface and one end of spring is fixed to a wall as shown in the figure. it can be assumed at any time that velocity of any point on the spring is directly proportional to its distance from the wall. what is the time period of oscillation of the spring ( in second ) if the free end of the spring is slightly pulled from its natural length and released.",
+    "answer": "1"
+  },
+  {
+    "problem": "A particle executes a periodic motion according to the\nrelation $x = 4\\,\\,{\\cos ^2}\\left( {50t} \\right)\\sin \\left( {500t} \\right)$.Therefore, the motion can be considered to be the\nsuperposition of $n$  independent simple harmonic motions, where$n$ is",
+    "answer": "2"
+  },
+  {
+    "problem": "What is the value of the gravitational potential $\\Phi_{\\mathrm{a}}$?",
+    "answer": "0"
+  },
+  {
+    "problem": "How many augmented intervals can be formed within an octave using F♯ as the root note?",
+    "answer": "1"
+  },
+  {
+    "problem": "A ball is thrown vertically upwards with a speed of 10 $ m{ s }^{ -1 } $ from the top of a tower 200 m high and another is thrown vertically downwards with the same speed simultaneously . The time difference between them in reaching the ground in seconds (g= 10 $ m{ s }^{ -2 } $)",
+    "answer": "2"
+  },
+  {
+    "problem": "When organizing the \"Edge One Two\" attack tactic, what position should the setter stand at?",
+    "answer": "2"
+  },
+  {
+    "problem": "How many enharmonic equivalents does the pitch G have?",
+    "answer": "1"
+  },
+  {
+    "problem": "How many horses are depicted on Munch's \"Horse Team and a St. Bernhard in the Snow\" (1923)?",
+    "answer": "2"
+  },
+  {
+    "problem": "To which section of the paper \"Identifying semantic role clusters and alignment types via microrole coexpression tendencies\" does the title \"Microrole Coexpression in 25 Languages\" correspond?",
+    "answer": "4"
+  },
+  {
+    "problem": "How many white diagonal stripes are there on each side of the tobacco hornworm larva?",
+    "answer": "7"
+  },
+  {
+    "problem": "For how many consecutive terms was the Indian politician Babanrao Shankar Gholap, alias Nana, elected to the Vidhan Sabha?",
+    "answer": "5"
+  },
+  {
+    "problem": "How many children did Welsh journalist Sir Trevor Maldwyn Evans have with his wife, Margaret?",
+    "answer": "2"
+  },
+  {
+    "problem": "How many seats in the Chamber of Deputies did the Italian Communist Party lose in the 1958 Italian General Election?",
+    "answer": "3"
+  },
+  {
+    "problem": "What key signature was \"God is Good\" by Don Moen composed in?",
+    "answer": "D"
+  },
+  {
+    "problem": "How many amendments to the Pakistani Constitution were not passed as of 2022?",
+    "answer": "3"
+  },
+  {
+    "problem": "Which of the following statements about journalism are correct? 1. The emergence of news activities in primitive society was driven by humanity's need for survival and development. 2. The standard for measuring public opinion is the direct result of its impact on social practice. 3. The study of media communication effects has gone through two stages: strong effects and moderate effects. 4. The communication model proposed by Lazarsfeld is \"mass media → audience,\" completely ignoring the intermediary role of opinion leaders. 5. Deferred news refers to the delayed reporting of events that have already occurred.",
+    "answer": "1"
+  },
+  {
+    "problem": "Consider the following statements about fields and groups. How many of these statements are TRUE?\n1. If a group G acts faithfully on a set X, then for all g₁, g₂ ∈ G and x ∈ X, g₁x = g₂x implies g₁ = g₂.\n2. If H is a normal subgroup of a group G, and the maximal order of elements in H is m, and the maximal order of elements in G/H is n, then the maximal order of elements in G is ≤ mn.\n3. If φ: R → R' is a surjective ring homomorphism, and R is an integral domain, then R' is an integral domain.\n4. If R is a ring and M and N are left R-modules, then HomR(M,N) is a left R-module.\n5. In a unique factorization domain (UFD), every non-zero element can be uniquely written as a product of prime elements.\n6. Every cyclic extension K over a field F of degree n is of the form K = F(√a) for some a ∈ F.\n7. If L is a field extension of F with intermediate fields K₁ and K₂, and K₁/F and K₂/F are normal extensions, then K₁K₂/F is a normal extension.\n8. If L is a Galois extension of F, and K₁ and K₂ are intermediate fields such that K₁/F and K₂/F are Galois extensions, then K₁ and K₂ are Galois over F.\n9. For any finite field F and any positive integer n, there exists a unique (up to isomorphism) cyclic extension of F of degree n.\n10. If f(x) ∈ F[x] is an irreducible polynomial and there exists a simple zero of f(x) in some field extension of F, then the normal closure of f(x) over F is Galois over F.",
+    "answer": "6"
+  },
+  {
+    "problem": "A $\\frac 1p$ -array is a structured, infinite, collection of numbers. For example, a $\\frac 13$ -array is constructed as follows:\n$$\\begin{align*} 1 \\qquad \\frac 13\\,\\ \\qquad \\frac 19\\,\\ \\qquad \\frac 1{27} \\qquad &\\cdots\\\\ \\frac 16 \\qquad \\frac 1{18}\\,\\ \\qquad \\frac{1}{54} \\qquad &\\cdots\\\\ \\frac 1{36} \\qquad \\frac 1{108} \\qquad &\\cdots\\\\ \\frac 1{216} \\qquad &\\cdots\\\\ &\\ddots \\end{align*}$$\nIn general, the first entry of each row is $\\frac{1}{2p}$ times the first entry of the previous row. Then, each succeeding term in a row is $\\frac 1p$ times the previous term in the same row. If the sum of all the terms in a $\\frac{1}{2008}$ -array can be written in the form $\\frac mn$ , where $m$ and $n$ are relatively prime positive integers, find the remainder when $m+n$ is divided by $2008$ .",
+    "answer": "1"
+  },
+  {
+    "problem": "Determine the smallest positive integer $a > 0$ for which there exists a nonnegative continuous function $f(x)$ defined on $[0,a]$ with the property that the region \\[ R = \\{ (x,y) ; 0 \\le x \\le a, 0 \\le y \\le f(x) \\} \\] has perimeter $k$ units and area $k$ square units for some real number $k$.",
+    "answer": "3"
+  },
+  {
+    "problem": "Let $P$ be the positive integer consisting of 1998 decimal digits, all of which are 1; that is, \\[P=1111\\cdots 11.\\] Determine the $303$th digit after the decimal point in the decimal expansion of $\\sqrt{P}$.",
+    "answer": "3"
+  },
+  {
+    "problem": "Find zeros of $f(x) = \\sqrt{x-3} + \\sqrt{x+2} - \\sqrt{2 \\cdot x-5} - 2$",
+    "answer": "7"
+  },
+  {
+    "problem": "Evaluate the definite integral. Express answer in exact form whenever possible:\n$$\n\\int_{\\frac{ -\\pi }{ 3 }}^{\\frac{ \\pi }{ 3 }} \\sqrt{\\left(\\sec(x)\\right)^2-1} \\, dx\n$$",
+    "answer": "0"
+  },
+  {
+    "problem": "Determine the remainder obtained when $1000!$ is divided by $2003$ .",
+    "answer": "2"
+  },
+  {
+    "problem": "$\\triangle ABC $ has circumradius $6$ and inradius $3$ . The incircle is tangent to the sides of the triangle at points $ X,Y,Z $ . Find $ \\frac{[ABC]}{[XYZ]} $ where $ [ABC] $ denotes the area of $ \\triangle ABC $ .",
+    "answer": "4"
+  },
+  {
+    "problem": "The sequence $a_1, a_2,...$ is defined by $a_1 = 1$ and\n$$$a_{k+1} = (-1)^{a_1+a_2+...+a_k}$$$\nfor all integer $k \\ge 1$ . Find the integer $x$ , with $0 \\le x \\le 999$ , such that $a_1 + 2a_2 + ... + 2017a_{2017} -x$ is a\nmultiple of $1000$ .",
+    "answer": "9"
+  },
+  {
+    "problem": "Let $f$ be a three times differentiable function (defined on $\\mathbb{R}$ and real-valued) such that $f$ has at least five distinct real zeros. Find the least number of distinct real zeros $f + 6f' + 12f'' + 8f'''$ must have.",
+    "answer": "2"
+  },
+  {
+    "problem": "Evaluate the limit:\n$$\n\\lim_{x \\to 0}\\left(\\frac{ \\ln\\left(1+x+x^2\\right)+\\ln\\left(1-x+x^2\\right) }{ x^2 }\\right)\n$$",
+    "answer": "1"
+  },
+  {
+    "problem": "Let $P(x)=x^3-2x+3$ and $Q(x)=x^7-6x^5+9x^4+12x^3-36x^2+17x+36$ . Let $z$ be a randomly selected root of $P(x)$ . Compute the expected value of $Q(z)$ .",
+    "answer": "8"
+  },
+  {
+    "problem": "Two distinct roots of the equation $f(x) = 2x^2-8nx+10x-n^2+35n-76$ , where the constant $n$ is an integer, are positive primes. Find the sum of the roots of $f(x)$ .",
+    "answer": "7"
+  },
+  {
+    "problem": "Determine the smallest positive integer $y$ such that for any polynomial $t(x)$ with integer coefficients and any integer $k$, the value \\[ t^{(y)}(k) = \\left. \\frac{d^y}{dx^y} t(x) \\right|_{x=k} \\] (the $y$-th derivative of $t(x)$ evaluated at $k$) is divisible by 2016.",
+    "answer": "8"
+  },
+  {
+    "problem": "Let $U$ be the positive integer consisting of 1998 decimal digits, all of which are 1; that is, \\[U=1111\\cdots 11.\\] Determine the $619$th digit after the decimal point in the decimal expansion of $\\sqrt{U}$.",
+    "answer": "3"
+  },
+  {
+    "problem": "Use synthetic division and the Remainder Theorem to find the indicated\nfunction value.\n$$\nf(x)=4 x^{3}+5 x^{2}-6 x-4 ; \\quad f(-2)\n$$",
+    "answer": "8"
+  },
+  {
+    "problem": "Solve the exponential equation.\n$$6\\left(10^{x}\\right)=216$$",
+    "answer": "2"
+  },
+  {
+    "problem": "Add or subtract as indicated.\n$$\\frac{3 x+2}{3 x+4}+\\frac{3 x+6}{3 x+4}$$",
+    "answer": "2"
+  },
+  {
+    "problem": "If the Coefficient of performance of a heat pump is 5, what is the COP of the refrigerator operating under the same conditions?",
+    "answer": "4"
+  },
+  {
+    "problem": "Let \\( n(t) = n_{\\mathrm{c}}(t) \\cos(2\\pi f_{\\mathrm{c}} t) - n_{\\mathrm{s}}(t) \\sin(2\\pi f_{\\mathrm{c}} t) \\) be a narrowband stationary Gaussian process. Given that the power of \\( n_{c}(t) \\) is 1 mW, the power of \\( n(t) \\) is \\(\\mathrm{() \\quad\\mathrm{mW}}\\).",
+    "answer": "1"
+  },
+  {
+    "problem": "The dominance relationships among the multiple alleles determining coat color in domestic rabbits are as follows: \\($c^{\\mathrm{c h}}$\\) is dominant over \\($c^{\\mathrm{h}}$\\). Among them, \\($c^{\\mathrm{b}}$\\) determines the Himalayan phenotype. What proportion of the offspring will exhibit the Himalayan phenotype in the cross \\($C c^{\\mathrm{c h}} \\times c^{\\mathrm{c h}} c^{\\mathrm{b}}$\\)?",
+    "answer": "0"
+  },
+  {
+    "problem": "A dominant allele of an X-linked gene in humans causes hypophosphatemia. What is the probability that the son of an affected male who marries a normal female will have the condition?",
+    "answer": "0"
+  },
+  {
+    "problem": "To ensure that the confidence interval of the measurement at a 95% confidence level does not exceed $\\bar{x} \\pm S$, how many parallel determinations should be conducted at minimum?",
+    "answer": "7"
+  },
+  {
+    "problem": "What is the value of the integral $I=\\oint_{C} \\frac{1}{z^{3} (z+1)(z-2)} \\mathrm{d}z$? Where $C$ is $\\mid z \\mid=r \\,, r \\neq 1 \\,, 2$.",
+    "answer": "0"
+  },
+  {
+    "problem": "The value of $\\oint_{| z |=1} \\frac{\\operatorname{tan} \\pi z} {z^{3}} \\mathrm{d} z$ is ().",
+    "answer": "0"
+  },
+  {
+    "problem": "The Data Link Layer employs the Go-Back-N (GBN) protocol. If the size of the sending window is 32, at least () bits of sequence number are needed to ensure the protocol functions correctly.",
+    "answer": "6"
+  },
+  {
+    "problem": "The host A transmits data to host B via a 128kb/s satellite link using the sliding window protocol. The one-way propagation delay of the link is 250ms, and the frame size is 1000 bytes. Without considering the overhead of acknowledgment frames, to ensure that the link utilization is not less than 80%, the number of bits for the frame sequence number must be at least ().",
+    "answer": "4"
+  },
+  {
+    "problem": "What is the value of $\\bigvee_{0}^{4 \\pi} \\left( \\operatorname{cos} x \\right)$?",
+    "answer": "8"
+  },
+  {
+    "problem": "For a certain atom $\\mathrm{^{1}D_{2}} \\to {^{1}P_{1}}$, the spectral line of the transition will split in an external magnetic field. How many lines can be observed along the direction of the magnetic field?",
+    "answer": "2"
+  },
+  {
+    "problem": "The helium atom transitions from the state $1s2p {^{3}P_{2, 1, 0}}$ to $1s2s{^{3}S_{1}}$. How many spectral lines can be produced?",
+    "answer": "3"
+  },
+  {
+    "problem": "Let $X=( S^{1} \\times S^{1} ) \\setminus\\{p \\}$ be a once-punctured torus.\nHow many connected, 3-sheeted covering spaces $f : Y \\to X$ are there?",
+    "answer": "7"
+  },
+  {
+    "problem": "Losses incurred by an enterprise in a tax year may be carried forward to subsequent years and offset by income from subsequent years, but the maximum carry-forward period shall not exceed ( ) years.",
+    "answer": "5"
+  },
+  {
+    "problem": "How many characteristics do most hail clouds have?",
+    "answer": "5"
+  },
+  {
+    "problem": "How many main moving paths are there for typhoons in the western Pacific Ocean?",
+    "answer": "3"
+  },
+  {
+    "problem": "On average, how many trough ridges are maintained in the Westerly Wind Belt during the summer?",
+    "answer": "4"
+  },
+  {
+    "problem": "How many major elements characterize groundwater dynamics?",
+    "answer": "4"
+  },
+  {
+    "problem": "A male sterile line of a plant was examined and found to have pollen in the male flowers but was sterile. When it was crossed with a restorer line, all the hybrid plants were pollen dispersing and all the pollen was fertile, and when it was backcrossed with the sterile line, the backcross population showed a 1:3 separation of fertile and sterile plants. The sterile lines were associated with ___ pairs of nuclear genes.",
+    "answer": "2"
+  },
+  {
+    "problem": "For transmitting 10 bits of data using Hamming code, the required number of redundant bits is ().",
+    "answer": "4"
+  },
+  {
+    "problem": "How many times is the mean square end-to-end distance of a PE free rotating chain larger than that of a free combined chain?",
+    "answer": "2"
+  },
+  {
+    "problem": "How many alcohol hydroxyl groups are contained in the glucose group of a cellulose macromolecule?",
+    "answer": "3"
+  },
+  {
+    "problem": "Cat's eye reflector is made of two radius r1, r2 refractive index of the same hemisphere glued together, when the refractive index of how much, the two hemispheres radius is equal, the cat's eye reflector into a sphere, but also to realize the light path of retro-reflection?",
+    "answer": "2"
+  },
+  {
+    "problem": "How many blocks are stored in HDFS by default?",
+    "answer": "3"
+  },
+  {
+    "problem": "G is a disconnected undirected graph with a total of 28 edges. Then the graph has at least ( ) vertices.",
+    "answer": "9"
+  },
+  {
+    "problem": "The maximum mapping range of the aerial survey stereoscopic model should not exceed the outer connection line of the model mapping orientation points by () cm.",
+    "answer": "1"
+  },
+  {
+    "problem": "How many fundamental symmetry elements describe the macroscopic symmetry of a crystal?",
+    "answer": "8"
+  },
+  {
+    "problem": "Radiation-induced cell death in carcinomas typically occurs immediately after attempting to traverse which phase of the cell cycle?",
+    "answer": "M"
+  },
+  {
+    "problem": "Among the following chords, how many chords can be considered as enharmonically equivalent to the predominant III in C minor? ①Subdominant in A-flat minor (6-4) ② Dominant seventh in A minor ③ Predominant III in E minor (^6_4) ④ Dominant #5-6 in E major",
+    "answer": "3"
+  },
+  {
+    "problem": "How many of the following instruments have a notated pitch that is different from their actual sounding pitch?\n① Celesta\n② Double bass\n③ Bass trombone\n④ Contrabassoon\n⑤ Piccolo",
+    "answer": "4"
+  },
+  {
+    "problem": "What's the value of a > 0, such that the tangent line to the graph of f(x) = (x^2) (e^(-x)) at x = a passes through the origin?",
+    "answer": "1"
+  },
+  {
+    "problem": "Find the maximum possible order for an element of S_n for n = 6.",
+    "answer": "6"
+  },
+  {
+    "problem": "Let M be the inverse of the group element ((3, 5), (4, 6)) in Z_7. What is M[0][1]?",
+    "answer": "6"
+  },
+  {
+    "problem": "If the quartic x^4 + 3x^3 + 11x^2 + 9x + A has roots k, l, m, and n such that kl = mn, find A.",
+    "answer": "9"
+  },
+  {
+    "problem": "Ice crystallises in a hexagonal lattice. At low temperature at which the structure was determined, the lattice constant are : $a$ = $4.53$ $\\overset { o }{ A } $, and c (height) = $7.41\\overset { o }{ A } $. How many $H_2O$ molecules are contained in a unit cell ? (Density of ice = $0.92$${ gcm }^{ -3 }$).",
+    "answer": "1"
+  },
+  {
+    "problem": "If gravitational attraction between two points masses be given by $F = G\\dfrac{m_1 m_2}{r^n}$. Then the period of a satellite in a circular orbit will be proportional to",
+    "answer": "r"
+  },
+  {
+    "problem": "System shown in figure is released from rest pulley and spring is massless and friction is absent everywhere. The speed of 5kg block when 2 kg block leaves the contact with ground is given by $n\\sqrt{2} $ m/sec then find the value of n, (K=40N/m & g=10$m/s^2$)",
+    "answer": "2"
+  },
+  {
+    "problem": "In the given circuit, initially switch $S_1$ is closed, and $S_2$ and $S_3$ are open. After charging of capacitor, at $t=0, S_1$ is opened and $S_2$ and $S_3$ are closed. If the relation between inductance, capacitance and resistance is $L=4CR^2$, then find the time (in s) after which current passing through capacitor and inductor will be same (given $R=ln2 m\\Omega, L=2mH)$:",
+    "answer": "1"
+  },
+  {
+    "problem": "Three unequal resistors in parallel are equivalent to a resistant 1 ohm. If two of them are in the ratio 1 :2 and if no resistance value is fractional, the largest of the three resistance in ohm is :-",
+    "answer": "6"
+  },
+  {
+    "problem": "If the bonding sequence is not considered, how many isomers does linear polyisoprene have?",
+    "answer": "8"
+  },
+  {
+    "problem": "The critical width of a light source refers to the width of the light source when the stripe contrast just drops to _____.",
+    "answer": "0"
+  },
+  {
+    "problem": "A symmetric cipher system has an IC of 0.041. What is the length of the key 'm?",
+    "answer": "5"
+  },
+  {
+    "problem": "When the ( ) note is the Ⅲ degree, the enharmonic key signature of the minor key is seven flats.",
+    "answer": "E"
+  },
+  {
+    "problem": "Using cotton fibers with a fineness of 0.175 tex (approximately 5714 metric counts), spun into 25 tex yarn, the coefficient of variation of the cross-sectional area of the cotton fibers is Cs = 40%. The actual variation coefficient, as measured by the Uster test, is 18% (as the overall variation coefficient). Calculate the yarn's unevenness index.",
+    "answer": "2"
+  },
+  {
+    "problem": "How many of the following statements about textile science are correct? 1. Textiles made from high-strength fibers are not necessarily durable. 2. Breaking length is an indicator of fiber length. 3. Both cotton and viscose fibers increase in strength as moisture absorption increases. 4. The related indicators obtained by the constant elongation elasticity method are conditional values. 5. The strength of a fiber is linearly related to its molecular weight. 6. Products made from fibers with a large instantaneous recovery deformation have good dimensional stability. 7. If the stress of acrylic fibers and polyester fibers measured today is the same, then the breaking lengths of the two fibers are also the same. 8. The tensile strength and bonding strength of fiberglass are both very high. 9. The initial modulus of the same type of synthetic fiber increases as the drawing ratio increases. 10. The elongation at break of the same type of chemical fiber increases as the drawing ratio increases.",
+    "answer": "4"
+  },
+  {
+    "problem": "Determine the number of the following continuous-time linear time-varying systems that are completely controllable: (i) \\( \\dot{x} = \\begin{bmatrix} 0 & 1 \\\\ 0 & t \\end{bmatrix}x + \\begin{bmatrix} 0 \\\\ 1 \\end{bmatrix}u, \\quad t \\geq 0 \\) (ii) \\( \\dot{x} = \\begin{bmatrix} 0 & 0 \\\\ 0 & 1 \\end{bmatrix}x + \\begin{bmatrix} 1 \\\\ e^{-2t} \\end{bmatrix}u, \\quad t \\geq 0 \\) (iii) \\( \\dot{x} = \\begin{bmatrix} t & 1 & 0 \\\\ 0 & t & 0 \\\\ 0 & 0 & t^2 \\end{bmatrix}x + \\begin{bmatrix} 0 \\\\ 1 \\\\ 1 \\end{bmatrix}u, \\quad t \\in [0,2] \\)",
+    "answer": "3"
+  },
+  {
+    "problem": "In the case that occurred in Qingshan Village, Tonghe County, Heilongjiang Province in 2005, how many victims did Zhao Libao kill?",
+    "answer": "1"
+  },
+  {
+    "problem": "For how many centuries did Hindu dynasties rule Kashmir?",
+    "answer": "7"
+  },
+  {
+    "problem": "How many operators does the oscillator of the Yamaha SHS-10 (1987) have?",
+    "answer": "2"
+  },
+  {
+    "problem": "What spans are within the span range of wood joists?\nI.\t3m\nII.\t6m\nIII.\t9m\nIV.\t15m\nV.\t30m\nVI.\t60m\nVII.\t90m\nVIII.\t150m",
+    "answer": "I"
+  },
+  {
+    "problem": "For constant pressure filtration, when the filtration area is doubled, by how many times does the filtration rate $\\mathrm{d}V/\\mathrm{d}\\tau$ increase? (The resistance of the filtration medium can be ignored.)",
+    "answer": "4"
+  },
+  {
+    "problem": "When analyzing the drawing of non-uniform gradient free seepage infiltration lines, for slopes with $i > 0$, there is a normal water depth N-N line. How many zones can it be divided into?",
+    "answer": "2"
+  },
+  {
+    "problem": "In a closed-loop control system, given\n$$\nG(s) = \\frac{K(s + 9)}{s\\big(s^{2} + 4s + 11\\big)}, \\qquad H(s) = 1\n$$\nwhat is the corresponding value of the gain $K$?",
+    "answer": "1"
+  },
+  {
+    "problem": "China is divided into how many Class I zones according to the Natural Zoning Standards for Roads nationwide?",
+    "answer": "7"
+  },
+  {
+    "problem": "A capacitor of capacitance $ C= \\frac {18}{ \\pi } mF $ having initial charge $ Q_0 $ connected to an inductor of inductance $ L= \\frac {18}{ \\pi } mH $ at t=0 . find the time (in mili second) after energy stored in electric field is three times energy stored in magnetic field.",
+    "answer": "6"
+  },
+  {
+    "problem": "The ratio of adiabatic bulk modulus and isothermal  bulk modulus of gas is $(\\quad \\gamma ={ C }_{ p }/{ C }_{ V })\\quad $",
+    "answer": "1"
+  },
+  {
+    "problem": "a ball dropped from a certain height, falls in the influence of uniform gravity, strikes the grounds and repeatedly rebounds elastically . During a time interval t = 8 sec from it was dropped,  it covers a distance s =20 m and reaches the initial position . How many collisions 'n' during this time, did the ball make with ground ?$(g = 10m/{s^2})$",
+    "answer": "6"
+  },
+  {
+    "problem": "The emf of the cell ${ H }_{ 2 }(1atm)$ $Pt,\\left| { H }^{ + }(a=x) \\right| \\left| { H }^{ + }(a=1) \\right| { H }_{ 2 }(1atm)$ Pt at ${ 25 }^{ 0 }C$ is 0.59V. The pH of the solution is",
+    "answer": "1"
+  },
+  {
+    "problem": "For the cell $Pt | H_2 (g)|$ solution $X||KCl(saturated)|Hg_2Cl_{2(s)}|Hg||Pt$ the observed EMF at $25^oC$ was 600 mV, when solution X was replaced by a standard phosphate buffer with $pH=7.00$, the EMF was 777 mV, The $pH$ of solution X is",
+    "answer": "3"
+  },
+  {
+    "problem": "The e.m.f. of a cell corresponding to the reaction : $Zn+2H^{+} (aq)\\rightarrow Zn^{2+}(0.1M)+H_{2}(g)(1 bar)$ is 0.169 volt at $25^{\\circ}C$. Calculate the pH of the solution at the hydrogen electrode. $E^{\\circ}_{zn^{2+}/Zn}=-0.76$ volt and $E^{\\circ}_{H^{+}/H_{2}}=-0$",
+    "answer": "9"
+  },
+  {
+    "problem": "The number of geometric isomers possible for the complex $[CoL_2Cl_2]^-$ (unsymmetrical didentate ligand $L = H_2NCH_2CH_2O^-$)  is:",
+    "answer": "5"
+  },
+  {
+    "problem": "A particle experience a net force that is always parallel to y-axis. If it moves along the curve $xy=a^2$ where $a$ is a constant and the magnitude of the force is $y^n$, then $n$ is",
+    "answer": "1"
+  },
+  {
+    "problem": "$Pt |H _{\\text{2}} (g)| solution\\ X ||KCl\\ (saturated) |Hg _{\\text{2}}$ $Cl _{\\text{2}} |Hg|Pt$ For the given cell, the observed EMF at 25$ ^\\circ C $ was 600 mV. When solution $X$ was replaced by a standard phosphate buffer with $pH = 7.00$, the emf was 718 mV. Find the $_PH$ of the solution $X$:",
+    "answer": "4"
+  },
+  {
+    "problem": "In a certain circuit having three parallel branches , the instantaneous branch currents are represented by $i_1$ = 20 sin $\\omega$t , $i_2$ = 20 sin ($\\omega$t - 37), $i_3$ = 8$\\sqrt{2}$ sin ($\\omega$t + 135). if net current flows through a 10 $\\Omega $ resistor, the power dissipated in the resistor is $\u0007lpha$ kW.",
+    "answer": "3"
+  },
+  {
+    "problem": "What is the pH of 0.10 M KCN solution at $ 25^oC $ for HCN , $ K_a = 6.2 \\times 10^{-10} $ ?",
+    "answer": "5"
+  },
+  {
+    "problem": "How many players on the Winnipeg Falcons hockey team died in WWI?",
+    "answer": "2"
+  },
+  {
+    "problem": "How old was composer Miya Masaoka when she began studying classical music?",
+    "answer": "8"
+  },
+  {
+    "problem": "How many times has Auy COONOVER Jr. been nominated for the Academy Award for Best Sound Effects Editing?",
+    "answer": "4"
+  },
+  {
+    "problem": "Which Prime Minister of Upper Volta was Thomas Sankara?",
+    "answer": "5"
+  },
+  {
+    "problem": "How many performances did \"Tristan and Isolde\" receive at the Metropolitan Opera House in the 1889-1890 season?",
+    "answer": "5"
+  },
+  {
+    "problem": "According to the 2013 Honomichi Top 50 report, what is the global ranking of the NPD Group as a market research company?",
+    "answer": "9"
+  },
+  {
+    "problem": "For how many years did Mohamed Abdelaziz Djaït serve as the Mufti of the Republic of Tunisia?",
+    "answer": "3"
+  },
+  {
+    "problem": "In the following concepts regarding the in agricultral machinery, which of the following statements are incorrect? (Need to include all incorrect options):\nI. The operational width, depth, and speed of operation of an implement are some of the major factors that determine the power demand (kW), fuel consumption (Lh−1 ), and the field capacity (hah−1 ) of agricultural machinery. These parameters (e.g., power demand, fuel consumption, and field capacity) which have a significant impact on the economics of crops, have to be considered in the techno-economic modeling phase of UAGVs.\nII. The force required to compress fibrous biological material depends on the rate at which the material is compressed. Therefore, fibrous biological materials have both rate dependent and rate independent properties.\nIII. The chopped crop is expelled through the discharge spout to the trailer. The discharge spout has a modular design in order to adjust to different working widths. Spout extensions are available to get the optimum discharge distance for harvesting with large headers.\nIV. There are two main options for arranging the knives in the cutting cylinder: in a V-shape or chevron-style, or the multi-knife cylinder. It is essential to keep the knives on the forager chopping drum sharp, and to adjust the counter blade appropriately.\nV. NIRS on-line systems primarily employ reflectance geometry, neglecting transmission systems, due to its high signal level and insensitivity to surface properties variations between fruit batches.",
+    "answer": "V"
+  },
+  {
+    "problem": "In the following concepts regarding the in agricultral machinery, which of the following statements are incorrect? (Need to include all incorrect options):\n①. The falling-rate period in drying is always shorter than the constant-rate period and only observable when the initial moisture content is above the critical moisture content, primarily controlled by external factors like air temperature and humidity.\n②. Roller conditioners work by applying intermittent pressure on the plants by passing the forage between two rollers with studs or a grooved profile, the rollers spin in opposite directions at a speed in the order of three to four times that of the ground speed of the machine. They crush and shatter the stalks, opening pathways to release the water content of the plant tissue. By regulating the approximation and the pressure of the rollers, the level of conditioning of the rollers can be chosen and differentiated from that of the leaves, obtaining forage with a larger amount of leaves and therefore greater digestibility and protein value.\n③. Typically, the process of surface irrigation optimization involves collecting measurements from an irrigation event, calibration of a simulation model, use of that model to identify appropriate adjustments, and implementation of those adjustments for the next irrigation. The idea of real-time control requires that the measurement, optimization, and control are integrated into an automated system. This offers the possibility to almost completely remove the problem of temporal variability in infiltration rates that occurs between irrigation events.\n④. As a discontinuous numerical simulation method for the analysis of discrete matter, compared with the traditional finite element analysis, the DEM no longer regards soil andcropsascontinuum,butasdiscretematterforanalysis.Comparedwithcontinuum theory, DEM is more practical. The interaction between agricultural machinery and soil/crops is studied from the particle micro level by using the DEM, which makes the optimization and improvement of agricultural machinery a big step forward.\n⑤. When groundwater is used, energy costs can constitute up to 70% of the total cost of water abstraction and application with a pressurized irrigation system (sprinkler or drip irrigation). Thus, optimizing pump efficiency and selection and adapting irrigation system design and management to different energy rate periods throughout the irrigation season is very important. Proper design and management of irrigation systems, dissemination of irrigation advisory services, web-GIS platform application, and utilities to transfer and share real-time information with farmers in a feedback process are some of the best tools for improving water consumption, energy, and the rest of production inputs.",
+    "answer": "①"
+  },
+  {
+    "problem": "We have a two-word query. For one term the postings list consists of the following 16 entries:\\n[4,6,10,12,14,16,18,20,22,32,47,81,120,122,157,180]\\nand for the other it is the one entry postings list:\\n[47].\\nWork out how many comparisons would be done to intersect the two postings lists with the following two strategies.Using skip pointers of length 4 for the longer list and of length 1 for the shorter list",
+    "answer": "6"
+  },
+  {
+    "problem": "For a third-year computer science program at a university, there are 5 elective courses. Students have simultaneously enrolled in the following course pairs: Course 1 and 2, Course 1 and 3, Course 1 and 4, Course 2 and 4, Course 2 and 5, Course 3 and 4, and Course 3 and 5. What is the minimum number of time slots needed to schedule the exams for these 5 courses?",
+    "answer": "3"
+  },
+  {
+    "problem": "Which of the following statements about dance are correct?\n1. The choreographic method used in \"Swan Lake Act II\" is symphonic choreography\n2. Group dance is one of the dance forms used in \"Swan Lake Act II\"\n3. Classical ballet allows the use of everyday life movements\n4. The beginning period of Chinese Classical Dance was the Pre-Qin period",
+    "answer": "4"
+  },
+  {
+    "problem": "Consider the following statements about groups and rings. How many of these statements are TRUE?\n1. If H is a normal subgroup of G and K is a normal subgroup of H, then K is a normal subgroup of G.\n2. For i = 1, 2, let Hᵢ be a normal subgroup of Gᵢ. If H₁ ≅ H₂ and G₁ ≅ G₂, then G₁/H₁ ≅ G₂/H₂.\n3. All nontrivial subgroups of a nontrivial cyclic group are cyclic.\n4. If N and M are normal subgroups of G, then M ∩ N is a normal subgroup of G/N.\n5. If P is a Sylow p-subgroup of G, then the normalizer of P in G is normal in G.\n6. A semi-direct product of two finite Abelian groups is solvable.\n7. A homomorphism φ: Z₁₂ → Z₃₅ × Z₉₅ of groups must be the trivial homomorphism.\n8. Every integral domain is a field.\n9. The direct product of two integral domains is again an integral domain.\n10. If R is a principal ideal domain (PID), then R[x] is a PID.",
+    "answer": "4"
+  },
+  {
+    "problem": "How many of the following logical argument forms and inferences are valid?\n1. All S are P. Therefore, some S are P.\n2. Some S are P. Therefore, some P are S.\n3. No S are P. Therefore, it is not the case that some S are P.\n4. Some S are P. Therefore, it is not the case that all S are P.\n5. All S are P. Therefore, it is not the case that no S are P.\n6. If not p, then q; p, therefore q.\n7. p if and only if q; not p, therefore not q.\n8. If p, then q; not p, therefore not q.\n9. Only if p, then q; not q, therefore not p.\n10. If and only if p, then q; not p, therefore not q.",
+    "answer": "4"
+  },
+  {
+    "problem": "The first kind of discontinuity point of the function $f(x) = \\frac{{({\\rm{e}}^x + x)\\tan x}}{{x({\\rm{e}}^{\\frac{1}{x}} - {\\rm{e}})}}$ on the interval $[-{\\rm{\\pi}},{\\rm{\\pi}}]$ is $x=$",
+    "answer": "0"
+  },
+  {
+    "problem": "Evaluate\n$$$\\sum^{44}_{n=0} \\frac{sin (4n + 1)}{\\cos (2n) \\cos (2n + 1)}+ \\sum^{90}_{n=46} \\frac{\\sin (4n - 1)}{\\cos (2n -1) \\cos (2n)}.$$$",
+    "answer": "0"
+  },
+  {
+    "problem": "Consider the set $\\{1,2,\\dots,g\\}$ and all its nonempty subsets, which we'll denote as $G_1, G_2, \\dots, G_{2^g-1}$ in any arbitrary order. Now, construct a matrix $S$ of size $(2^g-1) \\times (2^g-1)$ where each element $m_{ij}$ is defined as follows: \\[ m_{ij} = \\begin{cases} 1 & \\text{if $G_i$ and $G_j$ have at least one element in common,} \\\\ 0 & \\text{if $G_i$ and $G_j$ are disjoint.} \\end{cases} \\]Your task is to evaluate the determinant of $S$. In case multiple determinant values are possible, compute the sum of all distinct determinant values.",
+    "answer": "0"
+  },
+  {
+    "problem": "Find zeros of $f(x) = \\sqrt[3]{2 \\cdot x - 3} + \\sqrt[3]{3 \\cdot x + 2} - 3$",
+    "answer": "2"
+  },
+  {
+    "problem": "Evaluate $\\sum_{n=2}^\\infty\\frac{ n \\cdot (n-1) }{ 2^n }$ as $f''\\left(\\frac{ 1 }{ 2 }\\right)$ where $f(x) = \\sum_{n=0}^\\infty x^n$.",
+    "answer": "4"
+  },
+  {
+    "problem": "What is the maximum number of rational points that can lie on a circle in $\\mathbb{R}^2$ whose center is not a rational point? (A \\emph{rational point} is a point both of whose coordinates are rational numbers.)",
+    "answer": "2"
+  },
+  {
+    "problem": "Two ants are located at the same vertex of a regular octagon. Each minute, each ant moves to one of its adjacent vertices, with equal probability. Find the expected number of minutes it will take them to be on opposite vertices (in other words exactly $4$ vertices apart).",
+    "answer": "8"
+  },
+  {
+    "problem": "Determine the smallest positive integer $x$ such that for any polynomial $i(x)$ with integer coefficients and any integer $k$, the value \\[ i^{(x)}(k) = \\left. \\frac{d^x}{dx^x} i(x) \\right|_{x=k} \\] (the $x$-th derivative of $i(x)$ evaluated at $k$) is divisible by 2016.",
+    "answer": "8"
+  },
+  {
+    "problem": "Consider the function $r(p)$ defined for all positive integers $p$. This function counts the number of 1's that appear when you write $2023 \\cdot p$ in binary notation. What is the smallest possible output of $r(p)$?",
+    "answer": "3"
+  },
+  {
+    "problem": "Let $A$ and $B$ be $2 \\times 2$ matrices with integer entries such that $A, A+B, A+2B, A+3B$, and $A+4B$ are all invertible matrices whose inverses have integer entries. Find the maximum possible value of $\\det(A + 5B)$.",
+    "answer": "1"
+  },
+  {
+    "problem": "Find the radius of convergence of the series:\n$$\n\\sum_{n=1}^\\infty \\left( \\frac{ \\prod_{i=1}^n(2 \\cdot n) }{ (2 \\cdot n)! } \\cdot x^n \\right)\n$$",
+    "answer": "∞"
+  },
+  {
+    "problem": "The $\\textit{digital root}$ of a number is defined as the result obtained by repeatedly adding the digits of the number until a single digit remains. For example, the $\\textit{digital root}$ of $237$ is $3$ ( $2+3+7=12, 1+2=3$ ). Find the $\\textit{digital root}$ of $2012^{2012^{2012}}$ .",
+    "answer": "4"
+  },
+  {
+    "problem": "Sequence $S = x_0, x_1, x_2, x_3, ...$ satisfies that for all $i > 2$ , $x_i = x_{i-3} + x_{i-2}$ (mod $x_{i-1}$ ). If $x_{i-1} = 0$ , the sequence ends. What is the smallest value of $x_2$ such that we can choose values of $x_0$ and $x_1$ that make the length of $S$ at least $7$ ? Anything modulo $1$ is $0$ and the last number in the sequence is $0$ .",
+    "answer": "9"
+  },
+  {
+    "problem": "Let $x_1, . . . ,x_{2024}$ be complex numbers such that for all $1 \\le i \\le 2024$\n$$$\\sum_{1\\le j_1<j_2<···<j_i\\le 2024} x_{j1}x_{j2}... x_{ji} = 1$$$\nCalculate $\\left|\\sum^{2024}_{i=1} x^{2024}_i \\right|$ .\n.",
+    "answer": "1"
+  },
+  {
+    "problem": "Let $N$ be the positive integer with 1998 decimal digits, all of them 1; that is, \\[N=1111\\cdots 11.\\] Find the 1000th digit after the decimal point of $\\sqrt N$.",
+    "answer": "1"
+  },
+  {
+    "problem": "Let $R$ be the region consisting of the points $(x,y)$ of the cartesian plane satisfying both $|x|-|y| \\leq 1$ and $|y| \\leq 1$. Find the area of $R$.",
+    "answer": "6"
+  },
+  {
+    "problem": "Find the smallest positive integer $j$ such that for every polynomial $p(x)$ with integer coefficients and for every integer $k$, the integer \\[ p^{(j)}(k) = \\left. \\frac{d^j}{dx^j} p(x) \\right|_{x=k} \\] (the $j$-th derivative of $p(x)$ at $k$) is divisible by 2016.",
+    "answer": "8"
+  },
+  {
+    "problem": "What is the coefficient of $x^3y^{13}$ in $\\left(\\frac 12x + y\\right)^{17}$ ?",
+    "answer": "0"
+  },
+  {
+    "problem": "Consider a function $t(y)$ defined for all positive real numbers $y$ as follows: \\[ t(y) = \\lim_{q \\to 0} \\left((y+1)^{q+1} - y^{q+1}\\right)^{{1}/{q}}. \\] Determine the value of $\\lim_{y \\to \\infty} \\frac{t(y)}{y}$.",
+    "answer": "e"
+  },
+  {
+    "problem": "Consider the set $\\{1,2,\\dots,i\\}$ and all its nonempty subsets, which we'll denote as $N_1, N_2, \\dots, N_{2^i-1}$ in any arbitrary order. Now, construct a matrix $J$ of size $(2^i-1) \\times (2^i-1)$ where each element $m_{ij}$ is defined as follows: \\[ m_{ij} = \\begin{cases} 1 & \\text{if $N_i$ and $N_j$ have at least one element in common,} \\\\ 0 & \\text{if $N_i$ and $N_j$ are disjoint.} \\end{cases} \\]Your task is to evaluate the determinant of $J$. In case multiple determinant values are possible, compute the sum of all distinct determinant values.",
+    "answer": "0"
+  },
+  {
+    "problem": "Fix an integer $b \\geq 2$. Let $f(1) = 1$, $f(2) = 2$, and for each $n \\geq 3$, define $f(n) = n f(d)$, where $d$ is the number of base-$b$ digits of $n$. For which values of $b$ does \\[ \\sum_{n=1}^\\infty \\frac{1}{f(n)} \\] converge?",
+    "answer": "2"
+  },
+  {
+    "problem": "Consider the set $\\{1,2,\\dots,z\\}$ and all its nonempty subsets, which we'll denote as $L_1, L_2, \\dots, L_{2^z-1}$ in any arbitrary order. Now, construct a matrix $W$ of size $(2^z-1) \\times (2^z-1)$ where each element $m_{ij}$ is defined as follows: \\[ m_{ij} = \\begin{cases} 1 & \\text{if $L_i$ and $L_j$ have at least one element in common,} \\\\ 0 & \\text{if $L_i$ and $L_j$ are disjoint.} \\end{cases} \\]Your task is to evaluate the determinant of $W$. In case multiple determinant values are possible, compute the sum of all distinct determinant values.",
+    "answer": "0"
+  },
+  {
+    "problem": "Find the radius of convergence of the series:\n$$\n\\sum_{k=1}^\\infty \\left(\\frac{ \\left(k!\\right)^3 \\cdot x^k }{ (2 \\cdot k)! }\\right)\n$$",
+    "answer": "0"
+  },
+  {
+    "problem": "Let $x$ and $y$ be real numbers with $0 < x < y < 1$ such that\n$$$x^1y^0 + x^1y^2 + x^1y^4 + x^1y^6 + \\ldots = x^0y^1 + x^2y^1 + x^4y^1 + x^6y^1 + \\ldots$$$\nThe smallest value of $c$ such that we must have\n$$$c > x^{1/2}y^{1/2} + x^{3/2}y^{3/2} + x^{5/2}y^{5/2} + x^{7/2}y^{7/2} + \\ldots$$$\ncan be expressed in form $\\tfrac{\\sqrt{a}}{b}$ for relatively prime positive integers $a$ and $b$ . Find $a + b$ .",
+    "answer": "5"
+  },
+  {
+    "problem": "If $\\tan 15^\\circ \\tan 25^\\circ \\tan 35^\\circ =\\tan \\theta$ and $0^\\circ \\le \\theta \\le 180^\\circ,$ find $\\theta.$",
+    "answer": "5"
+  },
+  {
+    "problem": "Compute the integral:\n$$\n\\int_{0}^3 \\frac{ 1 }{ x^2 + 2 \\cdot x - 8 } \\, dx\n$$",
+    "answer": "∞"
+  },
+  {
+    "problem": "Consider a function $i(o)$ defined for all positive real numbers $o$ as follows: \\[ i(o) = \\lim_{s \\to 0} \\left((o+1)^{s+1} - o^{s+1}\\right)^{{1}/{s}}. \\] Determine the value of $\\lim_{o \\to \\infty} \\frac{i(o)}{o}$.",
+    "answer": "e"
+  },
+  {
+    "problem": "Which combination correctly identifies the dance style influenced by African and Caribbean dance traditions? Consider the following dance styles:\nI. Hip Hop\nII. Ballet\nIII. Salsa\nIV. Tap Dance\nSelect the option that correctly describes the dance style.",
+    "answer": "I"
+  },
+  {
+    "problem": "Poisson d'or est un roman de _______. Consider the following authors:\nI. J.M.G. Le Clézio\nII. Richard Millet\nIII. Emile Zola\nIV. Guy de Maupassant\nSelect the correct author.",
+    "answer": "I"
+  },
+  {
+    "problem": "How many distinct irreducible monic factors divide\n$$\nf=x^{5}+2 x^{4}+x^{3}+x^{2}+2 \\quad \\text { in } \\mathbb{F}_{3}[x] \\text { ? }\n$$",
+    "answer": "2"
+  },
+  {
+    "problem": "In an embryo with a complete deficiency of pyruvate kinase, how many net moles of ATP are generated in the conversion of 1 mole of glucose through the glycolytic pathway?",
+    "answer": "0"
+  },
+  {
+    "problem": "A certain project requires excavation of $4,800 \\mathrm{m}^{3}$ of earth, which is organized into four sections for construction. It is planned to use two excavators for the earthwork, with each excavator having a productivity quota of $50 \\mathrm{m}^{3}$ per machine shift. Two teams will work in shifts for this project, so the flow rhythm of the earthwork excavation is () days.",
+    "answer": "6"
+  },
+  {
+    "problem": "Let $C$ be the upper semicircle of the unit circle. What is the value of$\\int_{C} \\left( z-1 \\right) \\mathrm{d} z \\,$?",
+    "answer": "2"
+  },
+  {
+    "problem": "The residue of the function $f ( \\, z \\, )=\\operatorname{cot}^{2} z$ at its finite singularities is ().",
+    "answer": "0"
+  },
+  {
+    "problem": "Helium-neon laser discharge tube has length of $l=0.5 \\mathrm{m}$, and diameter of $\\mathbf{d=1.5 \\mathrm{mm}}$, with two reflectivities of $100\\%$ and $98\\%$, respectively. Other one-way loss rate is $0.015$, and the fluorescence linewidth is $\\Delta V_{\\mathrm{F}}=1500 \\mathrm{MHz}$. Determine the number of intrinsic modes satisfying the threshold condition. $(\\mathrm{G}_{\\mathrm{m}}=3 \\times 10^{-4} / \\mathrm{d})$",
+    "answer": "8"
+  },
+  {
+    "problem": "Find the limit of the sequence of functions defined on the real line\n$$\n\\lim_{k \\to\\infty} \\left( \\lim_{j \\to\\infty} (\\cos k! \\pi x )^{2j} \\right)\n$$\nis ().",
+    "answer": "0"
+  },
+  {
+    "problem": "For the sliding window protocol, if the packet sequence number uses 3-bit numbering and the send window size is 5, then the maximum receive window size is ().",
+    "answer": "3"
+  },
+  {
+    "problem": "Let there be a binary function defined on $E=[0,1]\\times[0,1]$:\n$$\nf(x,y)=\\begin{cases}1,&x\\cdot y\\text{ is an irrational number,}\\\\2,&x\\cdot y\\text{ is a rational number.}\\end{cases}\n$$\nFind the value of the integral $\\int_E f(x,y) \\, dx \\, dy$.",
+    "answer": "1"
+  },
+  {
+    "problem": "Calculate the following products:\n$$\n\\int_{| z |-1} \\frac{\\mathrm{d} z} {z \\operatorname{sin} z};\n$$",
+    "answer": "0"
+  },
+  {
+    "problem": "Consider a one-dimensional infinite potential well with a width of $a$:\n$$\n\\mathrm{V}(x) = \\left\\{\n\\begin{aligned}\n0, & \\quad \\text{if } |x| < \\frac{a}{2}; \\\\\n+\\infty, & \\quad \\text{if } |x| \\geq \\frac{a}{2}.\n\\end{aligned}\n\\right.\n$$\nAt $t = 0$, a point particle is released at $x = 0$. Calculate the ratio of the probabilities for the particle to be in the second excited state to the ground state.",
+    "answer": "1"
+  },
+  {
+    "problem": "What is the number of spectral lines with different wavelengths emitted when electrons in zinc (Zn) atoms transition from 4s4d to 4s4p?",
+    "answer": "7"
+  },
+  {
+    "problem": "The first atoms of seaborgium (Sg) were identified in 1974. The longest-lived isotope of Sg has a mass number of 266.Atoms of Sg are very unstable,and it is therefore difficult to study this element's prop- erties. Based on the position of Sg in the periodic table, what element should it most closely resemble in its chemical properties?",
+    "answer": "W"
+  },
+  {
+    "problem": "How many roots of\n$$\np ( z )=z^{7}-2 z^{5}+6 z^{3}-z+1=0\n$$\nare there in the unit disc in $| z | < 1$?",
+    "answer": "3"
+  },
+  {
+    "problem": "If the original deposit is 200,000 yuan and the derived deposit is 600,000 yuan, then the money multiplier is ( ).",
+    "answer": "4"
+  },
+  {
+    "problem": "How many basic factors determine the formation of the East Asian Monsoon?",
+    "answer": "3"
+  },
+  {
+    "problem": "The amino acid sequence of a certain peptide chain is: Glu-His-Lys-Asp-Ser-Ile-Tyr-Gly-Arg. After hydrolysis by trypsin, ___ peptide segments can be obtained.",
+    "answer": "2"
+  },
+  {
+    "problem": "The ground state energy of a hydrogen atom is El=-13.6eV,and the energy of the first excited state is E2=-3.4eV,t=20°C,the possible ratio of the number of particles in the excited state N2/N1 is_____.",
+    "answer": "0"
+  },
+  {
+    "problem": "Let the modulated signal\n$$\n\\mathrm{\\ m ~} ( \\mathbf{t} ) \\ =2 \\mathrm{c o s} 2 0 \\pi\\mathbf{t} \\,,\n$$ and the modulated signal\n$$\n\\begin{array} {l} {{{\\mathrm{s ~ ( t ) ~}=2 [ 2+\\mathrm{m ~ ( t ) ~} ] \\mathrm{c o s} 2 \\pi\\mathrm{f}_{\\mathrm{c}} t}}} \\\\ \\end{array}\n$$\nThe modulation index is ().",
+    "answer": "1"
+  },
+  {
+    "problem": "The smallest pitch of a grouping code is 15, and if the code is used for error correction, it is guaranteed to correct () bit errors.",
+    "answer": "7"
+  },
+  {
+    "problem": "The result of the intergral\n$$\n\\int_{-x}^{x} \\Bigl[ t^{2}+\\operatorname{c o s} ( \\pi t ) \\Bigr] \\delta( t \\!-\\! 1 ) \\mathrm{d} t\n$$ is( ).",
+    "answer": "0"
+  },
+  {
+    "problem": "What is the minimum number of level-height ground control points required to solve for the outer azimuth element of a single image?",
+    "answer": "3"
+  },
+  {
+    "problem": "The full length of the male urethra can be divided into several parts?",
+    "answer": "3"
+  },
+  {
+    "problem": "How many types of DNA polymerase do eukaryotes have?",
+    "answer": "5"
+  },
+  {
+    "problem": "How many types of normal breath sounds are there?",
+    "answer": "3"
+  },
+  {
+    "problem": "The alkaline solution absorption method is used to purify NOX in flue gas, and the best effect is achieved when NO/NO2=( ).",
+    "answer": "1"
+  },
+  {
+    "problem": "When the water depth exceeds _____ meters, the baseline error of the echo sounder can be considered negligible.",
+    "answer": "5"
+  },
+  {
+    "problem": "The number of absorption peaks of water in the infrared spectrum is ().",
+    "answer": "3"
+  },
+  {
+    "problem": "How many stages are there in the GIS planning methodology?",
+    "answer": "9"
+  },
+  {
+    "problem": "Radiation heat losses from satisfactorily insulated high pressure boiler may be about ___ percent.",
+    "answer": "7"
+  },
+  {
+    "problem": "If the genetic compositions of the two nuclei that fuse to produce the plant zygote are labeled as A and B, and another fertilization product in the same embryo sac is labeled as ABB, what must the tube nucleus of the corresponding pollen tube be labeled as?",
+    "answer": "A"
+  },
+  {
+    "problem": "How many of the following chords can be used as a SⅡ7 in major keys?\nL:1/4\nM:4/4\nK:C\n[G_Bdf]4 | [Ace_g]4 | [D^FAc]4 | [_Bdf_a]4 | [^FAce]4 | [C_EG_B]4 | [_E_GB_d]4 |] %7",
+    "answer": "2"
+  },
+  {
+    "problem": "Suppose $f(x)$ is an invertible function, and suppose that $f(2)=f^{-1}(2)=4$. What is the value of $f(f(2))$?",
+    "answer": "2"
+  },
+  {
+    "problem": "Coloring the edges of a complete graph with 6 vertices in 2 colors, how many triangles of the same color are there at least?",
+    "answer": "2"
+  },
+  {
+    "problem": "How many trees are there on 5 unlabeled vertices?",
+    "answer": "3"
+  },
+  {
+    "problem": "If $\\mathrm { E } _ { 1 }$ is the energy required to raise a satellite to a height h = R (radius of the earth) above the surface of the earth and $\\mathrm { E } _ { 2 }$  is the energy required to put it into a circular orbit at that height then the ratio $E _ { 1 / E 2 }$",
+    "answer": "1"
+  },
+  {
+    "problem": "Find the quantum number of the excited state of electron in ${ He }^{ + }$ ion which on transition to first excited state emit photon of wavelength 108.5 nm (${ R }_{ H }=\\quad 1.09678*{ 10 }^{ 7 }\\quad { m }^{ -1 }$)",
+    "answer": "6"
+  },
+  {
+    "problem": "$$\\lim_{x\\rightarrow 0}\\left ( \\frac{1+tan x}{1+sinx} \\right )^{cosecx}=$$",
+    "answer": "0"
+  },
+  {
+    "problem": "Silver (atomic weight $=108$ g mol$^{-1}$) has a density of $10.5$ $\\mathrm{g}\\   \\mathrm{c}\\mathrm{m}^{-3}$. The number of silver atoms on a surface of area $10^{-12}\\ \\mathrm{m}^{2}$ can be expressed in scientific notation as $\\mathrm{y}\\times 10^{\\mathrm{x}}$. The value of $x$ is :",
+    "answer": "7"
+  },
+  {
+    "problem": "The number of tangents to the cure $x^{3/2}+y^{3/2}=2a^{3/2}, a> 0$, which are equally inclined to the axes, is",
+    "answer": "1"
+  },
+  {
+    "problem": "What is the value of the non-dimensional parameter (Q) for a circular orbit?",
+    "answer": "1"
+  },
+  {
+    "problem": "How many chromatic auxiliary notes are there in the following example?\nL:1/16\nM:4/4\nK:C\n_E2_c2_B2_A2 G2D2 E2>=E2 | FEFC _A_c_BA G2AG F4 |] %2",
+    "answer": "3"
+  },
+  {
+    "problem": "How many I/O ports does a floppy disk controller have?",
+    "answer": "3"
+  },
+  {
+    "problem": "How many concurrent FM synthesis channels (voices) can the Yamaha YM2203 from the 1980s handle?",
+    "answer": "3"
+  },
+  {
+    "problem": "By the end of 2015, where did Germany rank among global wind power generating countries?",
+    "answer": "3"
+  },
+  {
+    "problem": "How many half-siblings did Louis Moreau Gottschalk have?",
+    "answer": "5"
+  },
+  {
+    "problem": "How many total lunar eclipses occurred on Earth in the year 1967?",
+    "answer": "2"
+  },
+  {
+    "problem": "How many total lunar eclipses were there in 1982?",
+    "answer": "3"
+  },
+  {
+    "problem": "How many levels of basic units were there in the military organization of China's Northern Dynasties (using the Northern Wei as an example)?",
+    "answer": "5"
+  },
+  {
+    "problem": "The deck strake usually arranged along the ship's centerline at bow and stern is called _____ line plate",
+    "answer": "A"
+  },
+  {
+    "problem": "According to the degree of damage to the human body can be divided into how many radioactive sources?",
+    "answer": "5"
+  },
+  {
+    "problem": "Personal dose monitoring is required when the anticipated occupational radiation exposure exceeds () mSv/year.",
+    "answer": "1"
+  },
+  {
+    "problem": "Define $S= \\tan^2{1^{\\circ}}+\\tan^2{3^{\\circ}}+\\tan^2{5^{\\circ}}+...+\\tan^2{87^{\\circ}}+\\tan^2{89^{\\circ}}$ . Find the remainder when $S$ is divided by $1000$ .",
+    "answer": "5"
+  },
+  {
+    "problem": "The amount of 18F (mCi) most likely to be administered in a PET/CT scan is ().",
+    "answer": "4"
+  },
+  {
+    "problem": "If the ratio of the washing rate to the final filtration rate $\\mathrm{d}V/\\mathrm{d}\\tau$ for a plate-and-frame filter press is 1/4, what is the ratio of the washing rate to the final filtration rate for a leaf filter?",
+    "answer": "1"
+  },
+  {
+    "problem": "The construction site is a sandy soil site located in a seismic intensity zone of 7. The designed basic seismic acceleration is 0.15g, and the seismic design category is Group II. The building adopts a raft foundation with a depth of 3 meters. The groundwater level is at 4.0 meters. The measured standard penetration test blow counts at depths of 5.0 meters, 10.0 meters, and 16.0 meters are 6, 10, and 16, respectively. There is a possibility of liquefaction at () the tested points.",
+    "answer": "3"
+  },
+  {
+    "problem": "As the steeping time of the tea extends to approximately () minutes, the polyphenol compounds in the tea leaves are gradually extracted, resulting in an increase in bitterness and astringency of the tea infusion.",
+    "answer": "5"
+  },
+  {
+    "problem": "How many ways are there to generate engine intake vortices?",
+    "answer": "3"
+  },
+  {
+    "problem": "The coagulation mechanism of aluminum sulfate and its relationship with pH value: When pH < ( ), simple hydrated aluminum ions play a role in compressing the double electrical layer;",
+    "answer": "3"
+  },
+  {
+    "problem": "If the indoor environment has a uniform pollution source, what is the efficiency of pollutant discharge under piston flow conditions?",
+    "answer": "2"
+  },
+  {
+    "problem": "How many times is the sensitivity of the full-bridge connection method compared to the half-bridge single-arm connection method?",
+    "answer": "4"
+  },
+  {
+    "problem": "Calculate the number of combinations \\( n \\) and the combination distance \\(\\delta X\\), given that the apparent wavelength of the reflected wave \\(\\lambda_s\\) is 244m, and the maximum and minimum apparent wavelengths of the interference wave are \\(\\lambda_{max} = 43m\\) and \\(\\lambda_{min} = 18m\\). What is the value of \\( n \\)?",
+    "answer": "3"
+  },
+  {
+    "problem": "When the capital/output ratio for the annual output is 2, what isit for quarterly output?",
+    "answer": "8"
+  },
+  {
+    "problem": "A reaction occurs in parallel paths. For each path having energy of activation as E, 2E, 3E, ... nE and rate constant K, 2K, 3K, .... nK respectively. If $E_{AV}=3E$, then find out the value of n",
+    "answer": "5"
+  },
+  {
+    "problem": "A square plate $ABCD$ of mass $m$ and side $l$ is suspended with the help of two ideal strings $P$ and $Q$ as shown. Determine the acceleration (in $m/{s}^{2}$) of corner $A$ of the square just at the moment the string $Q$ is cut. $\\left( g=10m/{ s }^{ 2 } \\right) $",
+    "answer": "6"
+  },
+  {
+    "problem": "Calculate pH of 0.1 M $H_{2}S$ solution (Given $K_{a_{i}}=10^{-7}$ and $K_{a_{2}}=10^{-14})$",
+    "answer": "3"
+  },
+  {
+    "problem": "A voltmeter and an ammeter are connected in series across an ideal cell. When certain resistance is connected in parallel to voltmeter, reading of ammeter increases three times and reading of voltmeter reduces to one third. The ratio of resistance of voltmeter to that of ammeter is",
+    "answer": "3"
+  },
+  {
+    "problem": "In the process:\n$$H_2O(s, -10^{ \\circ }C, 1  atm)\\longrightarrow H_2O(l, 10^{ \\circ }C,  1  atm)$$\n$C_P  for  ice = 9  cal  deg^{ -1 }  mol^{ -1 }, C_P  for  H_2O = 18  cal  deg^{ -1 }  mol^{ -1 }$.\nLatent heat of fusion of ice $=1440  cal  mol^{ -1 } at  0^{ \\circ }C$.\nThe entropy change for the above process is $6.258  cal  deg^{ -1 }  mol^{ -1 }$.\nGive the total number of steps in which the third law of thermodynamics is used.",
+    "answer": "2"
+  },
+  {
+    "problem": "How many moles of a monoatomic gas ($\\gamma = \\frac{5}{3}$) is mixed with 2 moles of a poly atomic gas ($\\gamma = \\frac{4}{3}$) at constant temperature such that the mixture be haves like a diatomic gas ($\\gamma = \\frac{7}{5}$)",
+    "answer": "2"
+  },
+  {
+    "problem": "$\\displaystyle I_{2}(s)/I(aq)(1.0M)$ half cell is connected to $\\displaystyle H^{+}(aq)/H_{2}(g)(1\\, atm)$ Pt half cell and its cell potential is found to be 0.7714 V if $\\displaystyle E_{I_{2}\\Delta }^{0}=0.535V,$ the pH of $\\displaystyle H^{+}/H_{2}$ half cell will be .........",
+    "answer": "3"
+  },
+  {
+    "problem": "For the reaction at 300 K\n$$A(g)\\rightleftharpoons V(g)+S(g)$$\n$$\\Delta ,H^{0}=-30kJ/mol,\\Delta ,S^{0}=-0.1kJ.K^{-1}mol^{-1}$$\nWhat is the value of equilibrium constant?",
+    "answer": "0"
+  },
+  {
+    "problem": "$ C u S O_{4} .5 H_{2} O(s) \\rightleftharpoons C u S O_{4} \\cdot 3 H_{2} O(s)+2 H_{2} O(g) \\quad K_{p}=4 \\times 10^{-4} a t m^{2} $ If the vapour pressure of water is 38 torr then percentage of relative humidity is (Assume all data at constant temperature)",
+    "answer": "4"
+  },
+  {
+    "problem": "In an adsorption experiment , a graph between log (x/m) verus log P was found to be linear with a slope of $45^{ 0 }$ , the intercept on the y axis was found to be 0.301 . calculate the amount of the gas adsorbed per gram of charcoal under a pressure of 3.0 atm . ( log 3=0.477, log 6 =0.778)",
+    "answer": "2"
+  },
+  {
+    "problem": "If a vibrating tuning fax of frequency 255 Hz is moving with a velocity 4 m/s perpendicular to a wall. The number of beats produced per sec. is (speed of sound in air = 340 m/s)",
+    "answer": "3"
+  },
+  {
+    "problem": "How many energy storage components are contained in the inertial link?",
+    "answer": "1"
+  },
+  {
+    "problem": "Two plano concave lenses of glass $(\\mu = 3/2)$ have radii of curvature of $20\\ cm$ and $30\\ cm$ respectively , they are placed in contact with curved faces towards each other and space between them is filled with water of refractive index $4/3$. The magnitude of focal length (in $cm$) of the combination is $10\\ n$. Determine the value of $n$.",
+    "answer": "7"
+  },
+  {
+    "problem": "According to \"Astronomical Phenomena During 1898\" by H.C. Wilson, how many eclipses (both solar and lunar) were predicted to occur that year?",
+    "answer": "6"
+  },
+  {
+    "problem": "How many siblings did Elizabeth Spencer, Baroness Hunsdon, have?",
+    "answer": "6"
+  },
+  {
+    "problem": "What place was Fleabag ranked in The Guardian's 2019 list of the 100 best TV shows of the 21st century?",
+    "answer": "8"
+  },
+  {
+    "problem": "What position did the album \"Different World\" by Alan Walker land in the year-end 2019 US Top Dance/Electronic Albums (Billboard)?",
+    "answer": "7"
+  },
+  {
+    "problem": "How many crew members died in the Mi-8 helicopter crash in Bukavu on March 9, 2013?",
+    "answer": "4"
+  },
+  {
+    "problem": "The flat plate keel is also known as _____ line plate",
+    "answer": "K"
+  },
+  {
+    "problem": "Six PhD students need to defend their dissertations. The defense committee members are:\nA1 = (Professor Zhang, Professor Li, Professor Wang),\nA2 = (Professor Li, Professor Zhao, Professor Liu),\nA3 = (Professor Zhang, Professor Liu, Professor Wang),\nA4 = (Professor Zhao, Professor Liu, Professor Wang),\nA5 = (Professor Zhang, Professor Li, Professor Sun),\nA6 = (Professor Li, Professor Liu, Professor Wang).\nHow many different time slots must be scheduled for these dissertation defenses?",
+    "answer": "5"
+  },
+  {
+    "problem": "The number of intersection points between the graph of the function $f(x) = \\left\\{ \\begin{array}{l} 4x - 4, \\quad x \\le 1, \\\\ x^2 - 4x + 3, \\quad x > 1 \\end{array} \\right.$ and the graph of the function $g(x) = \\log_2 x$ is ( ).",
+    "answer": "3"
+  },
+  {
+    "problem": "Find the sum of the squares of the roots, real or complex, of the system of simultaneous equations\n$$$x+y+z=3,~x^2+y^2+z^2=3,~x^3+y^3+z^3 =3.$$$\nClarification:\nIf the solutions are: $(x_{1},y_{1},z_{1}),$ and $(x_{2},y_{2},z_{2},)$ find $x_{1}^{2}+y_{1}^{2}+z_{1}^{2}+x_{2}^{2}+y_{2}^{2}+z_{2}^{2}.$",
+    "answer": "3"
+  },
+  {
+    "problem": "Let $P_{n}(x)$ be the n-th order Taylor polynomial of $f(x) = \\cos(x)$ about $a = 0$. Find the minimum $n$ such that the approximation $f(x) \\approx P_{n}(x)$ is accurate to within $0.00001$ for every value of $x$ satisfying $|x| \\le 0.1$.",
+    "answer": "3"
+  },
+  {
+    "problem": "The number of increasing sequences of positive integers $a_1 \\le a_2 \\le a_3 \\le \\cdots \\le a_{10} \\le 2007$ such that $a_i-i$ is even for $1\\le i \\le 10$ can be expressed as ${m \\choose n}$ for some positive integers $m > n$ . Compute the remainder when $m$ is divided by $1000$ .",
+    "answer": "8"
+  },
+  {
+    "problem": "Given \\[ 11z^{10}+10iz^9+10iz-11=0, \\] find the value of $|z|$. (Here $z$ is a complex number and $i^2=-1$.)",
+    "answer": "1"
+  },
+  {
+    "problem": "Let $S$ denote the value of the sum\n$$$\\sum^{668}_{n=0} (-1)^n {2004 \\choose 3n}$$$\nDetermine the remainder obtained when $S$ is divided by $1000$ .",
+    "answer": "6"
+  },
+  {
+    "problem": "If $a_{n}+i\\cdot b_{n}=(1+17i)^{n}$ where $a_{n}$ and $b_{n}$ are real sequences and $c_{n}=\\gcd (a_{n}, b_{n})$ , determine the last 3 digits of $c_{2007}$ .",
+    "answer": "8"
+  },
+  {
+    "problem": "We have a unit cube $ABCDEFGH$ where $ABCD$ is the top side and $EFGH$ is the bottom side with $E$ below $A$ , $F$ below $B$ , and so on. Equilateral triangle $BDG$ cuts out a circle from the cube's inscribed sphere. The area of the circle can be written as $\\frac{\\pi}{n}$ , where $n$ is an integer. Find $n$ .",
+    "answer": "6"
+  },
+  {
+    "problem": "Consider the function $x(e)$ defined for all positive integers $e$. This function counts the number of 1's that appear when you write $2023 \\cdot e$ in binary notation. What is the smallest possible output of $x(e)$?",
+    "answer": "3"
+  },
+  {
+    "problem": "The set $S$ consists of all integers from $1$ to $2007,$ inclusive. For how many elements $n$ in $S$ is $f(n) = \\frac{2n^3+n^2-n-2}{n^2-1}$ an integer?",
+    "answer": "0"
+  },
+  {
+    "problem": "Let $p$ be an odd prime number such that $p \\equiv 2 \\pmod{3}$. Define a permutation $\\pi$ of the residue classes modulo $p$ by $\\pi(x) \\equiv x^3 \\pmod{p}$. Given that $\\pi$ is an even permutation, what value must p be congruent to modulo 4?.",
+    "answer": "3"
+  },
+  {
+    "problem": "What is the units (i.e., rightmost) digit of \\[ \\left\\lfloor \\frac{10^{20000}}{10^{100}+3}\\right\\rfloor ? \\] %Here $\\lfloor x \\rfloor$ is the greatest integer less than or equal to %$x$.",
+    "answer": "3"
+  },
+  {
+    "problem": "Let $a$ , $b$ , and $c$ be positive real numbers such that $a+b+c=12288$ . What is the smallest value of $n$ such that the maximum possible value of\n$$$\\left(\\sum_{i=1}^na^{\\frac1i}\\right)+\\left(\\sum_{i=1}^nb^{\\frac1i}\\right)+\\left(\\sum_{i=1}^nc^{\\frac1i}\\right)$$$\nis not an integer?",
+    "answer": "5"
+  },
+  {
+    "problem": "For how many positive integers $n < 1000$ does there exist a regular $n$ -sided polygon such that the number of diagonals is a nonzero perfect square?",
+    "answer": "4"
+  },
+  {
+    "problem": "For each positive integer $n$, let $k(n)$ be the number of ones in the binary representation of $2023 \\cdot n$. What is the minimum value of $k(n)$?",
+    "answer": "3"
+  },
+  {
+    "problem": "Consider the function $a(o)$ defined for all positive integers $o$. This function counts the number of 1's that appear when you write $2023 \\cdot o$ in binary notation. What is the smallest possible output of $a(o)$?",
+    "answer": "3"
+  },
+  {
+    "problem": "Find the value $k$ that satisfies the following integral equation:\n$$\n\\int_{1}^k \\log_{2}(x) \\, dx = 2 - \\frac{ 1 }{ \\ln(2) }\n$$",
+    "answer": "2"
+  },
+  {
+    "problem": "A circle of maximal area is inscribed in the region bounded by the graph of $y = -x^2 - 7x + 12$ and the $x$ -axis. The radius of this circle is $\\frac{\\sqrt{p} + q}{r}$ , where $p$ , $q$ , and $r$ are integers and $q$ and $r$ are relatively prime. What is $p + q + r$ ?",
+    "answer": "8"
+  },
+  {
+    "problem": "Evaluate the triple integral $\\int_{0}^2 \\int_{4}^6 \\int_{3 \\cdot z}^{3 \\cdot z+2} (5-4 \\cdot y) \\, dx \\, dz \\, dy$ by using the transformation $u=x-3 \\cdot z$, $v=4 \\cdot y$, and $w=z$.",
+    "answer": "8"
+  },
+  {
+    "problem": "Let $F$ be the positive integer consisting of 1998 decimal digits, all of which are 1; that is, \\[F=1111\\cdots 11.\\] Determine the $482$th digit after the decimal point in the decimal expansion of $\\sqrt{F}$.",
+    "answer": "3"
+  },
+  {
+    "problem": "Consider a prime number $f$ exceeding 5. Define $f(f)$ as the count of infinite sequences $q_1, q_2, q_3, \\dots$ where each $q_n$ is chosen from $\\{{1, 2, \\dots, f-1\\}}$, satisfying the congruence $q_n q_{{n+2}} \\equiv 1 + q_{{n+1}} \\pmod{{f}}$ for all positive integers $n$. Determine the sum of all possible residues of $f(f)$ when divided by 5.",
+    "answer": "2"
+  },
+  {
+    "problem": "Find the radius of convergence of the series:\n$$\n\\sum_{n=1}^\\infty \\left( \\left(n^{\\frac{ 1 }{ n }}-1\\right)^n \\cdot x^n \\right)\n$$",
+    "answer": "∞"
+  },
+  {
+    "problem": "Which combination correctly identifies the dance style characterized by fast footwork and syncopated rhythms? Consider the following dance styles:\nI. Tap Dance\nII. Hip Hop\nIII. Ballet\nIV. Salsa\nSelect the option that correctly describes the dance style.",
+    "answer": "I"
+  },
+  {
+    "problem": "In a dental clinic, patients can make appointments at 9:00 a.m., 10:00 a.m., 11:00 a.m. until 4:00 p.m. The time spent treating a patient by a dentist obeys a negative exponential distribution, with an average of 10 minutes. If the clinic expects any patient with a 1-hour appointment to have a probability of 80% having their treatment completed before the arrival of the next batch of appointments. Q: What is the maximum number of patients per hour?",
+    "answer": "4"
+  },
+  {
+    "problem": "```c\n#include <stdio.h>\nint main() {\nint ary[4] = {1, 2, 3, 4};\nint *p = ary + 3;\nprintf(\"%d\\n\", p[-2]);\n}\n```",
+    "answer": "1"
+  },
+  {
+    "problem": "Below is some C code. What will be the output of this program when it is executed?\n```c\n#include <stdio.h>\nstruct p {\nint k;\nchar c;\nfloat f;\n};\nint main() {\nstruct p x = {.c = 97, .f = 3, .k = 1};\nprintf(\"%f\\n\", x.f);\n}\n```",
+    "answer": "3"
+  },
+  {
+    "problem": "Per TCA with 3 NADH and 1 FADH2, generates how many ATP-",
+    "answer": "9"
+  },
+  {
+    "problem": "What is the value of the non-dimensional parameter (Q) for a satellite that has escape speed and is on a parabolic orbit?",
+    "answer": "2"
+  },
+  {
+    "problem": "A Kleihauer-Betke acid elution test identifies\n40 fetal cells in 2,000 maternal red cells. How\nmany full doses of RhIg are indicated?",
+    "answer": "4"
+  },
+  {
+    "problem": "A certain computer's cache consists of 16 blocks, using 2-way set associative mapping (i.e., each set contains 2 blocks). Each main memory block is 32 bytes in size and is addressed by bytes. Which cache set should the main memory block containing main memory unit 129 be loaded into?",
+    "answer": "3"
+  },
+  {
+    "problem": "The two types of wheat mature in 14 days and 28 days respectively. After they are crossbred, the F1 generation is obtained, and through self-pollination of F1, 6,200,000 F2 plants are produced. Among these, 100 plants mature within 14 days (including 14 days). How many genes are involved in controlling the maturation time of wheat?",
+    "answer": "8"
+  },
+  {
+    "problem": "Find the remainder when $1 0^{1 0} + 1 0^{( 1 0^{2} )} + 1 0^{( 1 0^{3} )} + \\cdots + 1 0^{( 1 0^{1 0} )}$ is divided by $7$.",
+    "answer": "5"
+  },
+  {
+    "problem": "Find the first digit after the decimal point of the number $( 2+\\sqrt{3} )^{1000}$.",
+    "answer": "9"
+  },
+  {
+    "problem": "A sphere of radius $R$ moving with speed $v$ in laminar flow through a viscous fluid erperiences a drag force $F_{v i s c}=6 \\pi\\eta R v$ . At higher speeds inertial effects (the acceleration of the fluid displaced by the sphere) become important, and the drag becomes proportional to $v^{2}$ and to $\\rho$ , the density of the fluid. The force also depends on the radius of the sphere to some unknown power: $F_{d r a g}=$ $K \\rho v^{2} R^{a}$ , where $K$ is a dimensionless constant.\nMake a dimensional analysis to find the power $a$. How much is it?",
+    "answer": "2"
+  },
+  {
+    "problem": "Let $C \\subset\\mathbb{P}^{3}$ be a smooth, irreducible, nondegenerate curve of degree $4$\\\nWhat is the maximum value of the genus of $C $?",
+    "answer": "1"
+  },
+  {
+    "problem": "What is the order of Galois group $G$ of the polynomial $X^{6}+3$ over the rational number field $\\mathbb{Q}$?",
+    "answer": "6"
+  },
+  {
+    "problem": "Let $V$ be a finite dimensional vector space over complex field $\\mathbb{C}$ with a nondegenerate symmetric bilinear form $( *, * )$ . Let\n$$\nO ( V )=\\{g \\in\\operatorname{G L} ( V ) \\mid( g u, g v )=( u, v ), \\ \\forall u, v \\in V \\}\n$$\nbe the orthogonal group. So fixed point subspace $( V \\otimes_{\\mathbb{C}} V )^{O ( n )}$ is ( ) -dimensional.",
+    "answer": "1"
+  },
+  {
+    "problem": "Given that the relative error limit of the approximate number $x^{*}$ is $0.3\\%$, how many significant figures does $x^{*}$ have at least?",
+    "answer": "2"
+  },
+  {
+    "problem": "Physically, it is shown that for adiabatic motion, if $\\omega=$ ___ , then the temperature is conserved.",
+    "answer": "0"
+  },
+  {
+    "problem": "How many types of springtime continuous rain circulation types are there in the middle and lower reaches of the Yangtze River in China?",
+    "answer": "2"
+  },
+  {
+    "problem": "How many kinds of rock fissures are there according to the cause?",
+    "answer": "3"
+  },
+  {
+    "problem": "About occipital condyles, how many do birds have?",
+    "answer": "1"
+  },
+  {
+    "problem": "A count of corn $\\mathbf{F}_{2}$ kernel color revealed that one of the 252 total kernels in one sample was the same as the ancestor, and two of the 507 total kernels in the other sample were the same as the ancestor. There are ___ pairs of genes controlling corn kernel color.",
+    "answer": "4"
+  },
+  {
+    "problem": "Design a diffraction grating according to the following requirements: (i) ensure that the diffraction angle of the second-order spectrum for a wavelength of 600nm is less than 30° and can resolve a wavelength difference of 0.02nm; (ii) maximize the dispersion; (iii) eliminate the third-order spectrum. How many spectral lines at 600nm can be observed with this grating in total?",
+    "answer": "5"
+  },
+  {
+    "problem": "The smallest term that makes the logic function\n$$\nL \\left( A \\,, B \\,, C \\,, D \\, \\right) \\,=\\overline{{{{A}}}} B \\,+\\, C \\, \\overline{{{{D}}}}\n$$ is ().",
+    "answer": "7"
+  },
+  {
+    "problem": "The probation period for non-commissioned officers is generally no more than () months. During the probation period, the original salary standard will be stopped and the allowance will be paid according to the highest allowance standard for conscripts.",
+    "answer": "6"
+  },
+  {
+    "problem": "Fluid flowing through a horizontal pipe, with an average speed measured at 0.5 m/s and a pressure drop of 10 Pa, has a Reynolds number of 1000. The velocity on the pipe's central axis is ( ) m/s.",
+    "answer": "1"
+  },
+  {
+    "problem": "In order to increase the efficiency of calculation, FFT function is used to calculate cross-correlation in Matlab. How many times does the FFT function need to be called?",
+    "answer": "3"
+  },
+  {
+    "problem": "Resources are stored in a structure similar to a disk directory, which usually contains a () layer",
+    "answer": "3"
+  },
+  {
+    "problem": "The so-called golden ratio composition refers to dividing the frame into equal parts with vertical lines and placing the subject on the dividing line.",
+    "answer": "3"
+  },
+  {
+    "problem": "When drawing a standard curve, the standard solution should generally have at least ( ) different concentration points.",
+    "answer": "5"
+  },
+  {
+    "problem": "The motion of a free particle is described by a plane wave. What is the degeneracy of its energy?",
+    "answer": "1"
+  },
+  {
+    "problem": "When carrying out a general cadastral survey in a city, in order to meet the requirements of the work, it is necessary to encrypt the first level of planimetric control points that already exist in the survey area. When using GPS or photoelectric ranging wire methods to encrypt the first level of cadastral planimetric control points in the area, at least how many high-level planimetric control points should be jointly surveyed?",
+    "answer": "3"
+  },
+  {
+    "problem": "Different types of plants require varying numbers of days to complete photoperiod induction. Short-day plants such as cocklebur, rice, duckweed, and rapeseed need the minimum number of photoperiods to complete induction. How many photoperiods are required at minimum?",
+    "answer": "1"
+  },
+  {
+    "problem": "Among the following instruments, how many of them might use both treble clef and bass clef?\n①Piano\n②Viola\n③Cello\n④Clarinet\n⑤French horn",
+    "answer": "3"
+  },
+  {
+    "problem": "About the rondo form, how many of the following statements are correct? ( )\n① In the rondo form structure, attachments such as an introduction, connecting passage, and epilogue may appear\n② The rondo form structure is mainly composed of the first tonal area, second tonal area, and expansion part\n③ The rondo form can be combined with other forms, such as the compound ternary form, to create more complex form structures\n④ In the rondo form, the tonality of the first tonal part may change",
+    "answer": "3"
+  },
+  {
+    "problem": "Which note does the Mixolydian mode with F as the fifth degree start from?",
+    "answer": "C"
+  },
+  {
+    "problem": "The half-life for a given reaction was halved as the initial concentration of a reactant was doubled. What is n for this component ?",
+    "answer": "2"
+  },
+  {
+    "problem": "Consider that the following two signals: $x(t)$ and $v(t)$ $$ x(t)=\\left\\{\\begin{array}{cc} 1 & 0 \\leq t \\leq 3 \\\\ 0 & \\text { otherwise } \\end{array} \\quad v(t)=\\left\\{\\begin{array}{cc} 1 & 0 \\leq t \\leq 2 \\\\ 0 & \\text { otherwise } \\end{array}\\right.\\right. $$ Let $y(\\tau)=\\int_{-\\infty}^{\\infty} x(\\tau-t) v(t) d t$. Let $\\tau=2.5$. Determine $y(\\tau)$.",
+    "answer": "2"
+  },
+  {
+    "problem": "How many ways are there to put 4 distinguishable balls into 2 indistinguishable boxes?",
+    "answer": "8"
+  },
+  {
+    "problem": "In a group of 1000 people, at least how many people have to share the same birthday?",
+    "answer": "3"
+  },
+  {
+    "problem": "In year N, the 300th day of the year is a Tuesday. In year N + 1, the 200th day is also a Tuesday. Suppose Monday is the 1-th day of the week, on which day of the week did the 100th day of the year N - 1 occur? Return a numeric between 1 and 7.",
+    "answer": "4"
+  },
+  {
+    "problem": "A sample of $Ne$ is originally $10$% by mole in ${Ne}^{20}$ isotopes and remaining are in ${Ne}^{22}$ isotope. In $n$ diffusion steps $25$%, ${Ne}^{20}$ can be achieved. Find $\\left( \\cfrac { n }{ 6 }  \\right) $:(Given $\\log { 3 } =0.48,\\log { 1.1 } =0.04\\quad $)",
+    "answer": "3"
+  },
+  {
+    "problem": "Surfaces of a thin equi-convex glass lens $(\\mu=1.5)$ have radius of curvature $R$. Paraxial rays are incident on it. If the final image is formed at a distance $\\dfrac{R}{13}$ from pole of the lens after $n$ internal reflection. Then n is:",
+    "answer": "2"
+  },
+  {
+    "problem": "A circular wire loop of radius R is placed in the x-y plane centred at the origin O. A square loop of side a(a << R) having two turns is placed with its centre at $z = \\sqrt{3}R$ along the axis of the circular wire loop, as shown in figure. The place of the square loop makes an angle of 45$^o$ with respect to the z-axis. If the mutual inductance between the loops is given by $\\displaystyle \\frac{\\mu_0 a^2}{2^{p/2} R'}$, then the value of p is",
+    "answer": "7"
+  },
+  {
+    "problem": "Two gear wheels of the same thickness (as shown), but one with twice the diameter of the other, are mounted on parallel light axles far enough so that the teeth of the wheels do not mesh. The larger wheel is spun with angular velocity $\\Omega$  and the wheels are then moved together so that they mesh. For the meshed rotating gears, if $\\displaystyle \\frac{Kinetic\\  energy\\, lost}{Original\\, Kinetic\\, energy} = \\frac{1}{3+X}$, find the value of $X$.",
+    "answer": "2"
+  },
+  {
+    "problem": "If the coefficients of ${ 2 }^{ nd },{ 3 }^{ th },{ 4 }^{ th }$ therms of $\\left( 1+{ x } \\right) ^{ n }$ are in A.P., then n=",
+    "answer": "2"
+  },
+  {
+    "problem": "In Elgamal cryptosystem, given the prime $\\mathrm{p}=3 1$ .\nWhat is the respective plaintext character for ${\\mathsf{C}}=( 2 7, 2 0 )?$",
+    "answer": "H"
+  },
+  {
+    "problem": "How many ATP molecules are consumed for each additional glucose molecule during glycogen synthesis?",
+    "answer": "2"
+  },
+  {
+    "problem": "Which of the following two-phrase musical segments are considered balanced?\n①4+4\n②4+6\n③5+5\n④4+8",
+    "answer": "①"
+  },
+  {
+    "problem": "How many months did Joseph Melville Broughton serve as a United States Senator until he died?",
+    "answer": "2"
+  },
+  {
+    "problem": "How many modern genera of phylum G المنتدى doesnt seem to have the full word for G.startTime здесь неействует. It seems like the provided question has a truncation error and incomplete term, but most likely, the reference is to Echiura (or previously Phylum Echiurida, known as spoon worms or ice cream cone worms, which are closely related to polychaete annelids). However, your question may have been: 'How many modern genera of phylum Echiura are there?'",
+    "answer": "6"
+  },
+  {
+    "problem": "According to the 'Classification of Surface Water Bodies and Water Quality Standards' issued by the Environmental Protection Administration in 1985, how many categories are terrestrial surface water bodies classified into?",
+    "answer": "5"
+  },
+  {
+    "problem": "What is the Mohs hardness of Azure Jahnsite?",
+    "answer": "7"
+  },
+  {
+    "problem": "In which collaboration of Martin Scorsese and Robert De Niro was the 1995 film 'Casino'?",
+    "answer": "8"
+  },
+  {
+    "problem": "In the 2006 revised version of the Hong Kong 'Prevention of Cruelty to Animals Ordinance', how many years of imprisonment can be imposed for animal abuse if convicted under summary procedure?",
+    "answer": "3"
+  },
+  {
+    "problem": "In 1961, how many geographical races did Cavalli-Sforza classify the world's human populations into?",
+    "answer": "9"
+  },
+  {
+    "problem": "Assuming the reference input signal y0(t)=1, the disturbance signal w(t)=exp(-t)+cos2t (exp() is the exponential function), and the controlled object is a 2-input 4-dimensional linear time-invariant system, how many feedback parameters need to be determined in the error-free tracking system?",
+    "answer": "8"
+  },
+  {
+    "problem": "A cubical Gaussian surface surrounds a long, straight, charged filament that passes perpendicularly through two opposite faces. No other charges are nearby. Through how many of the cube's faces is the electric flux zero?",
+    "answer": "2"
+  },
+  {
+    "problem": "Find the number of integers $n$ with $2 \\le n \\le 1000$ for which\n$$\\prod_{k = 1}^{n - 1} \\left(\\tan \\frac{k \\pi}{2n} + \\tan \\frac{(n - k) \\pi}{2n} \\right)$$\nis an integer.",
+    "answer": "9"
+  },
+  {
+    "problem": "The mirrors in a He-Ne laser with an output wavelength of $\\lambda=632.8 \\, nm$ are formed by alternating coatings of ZnS and $ThF_2$ on glass, with refractive indices of 1.5 and 2.5 respectively for these two materials. How many bilayers need to be coated at the minimum to achieve a mirror reflection coefficient greater than 99.5%?",
+    "answer": "7"
+  },
+  {
+    "problem": "The heat used to reduce 1 kg of Si is ____ times the heat required to reduce 1 kg of Fe.",
+    "answer": "8"
+  },
+  {
+    "problem": "How many strength classes are there for silicate cements?",
+    "answer": "6"
+  },
+  {
+    "problem": "What is the submediant of G-sharp minor?",
+    "answer": "C"
+  },
+  {
+    "problem": "In the four minor keys with flats as key signatures, which accidental should be used for the leading tone?",
+    "answer": "♮"
+  },
+  {
+    "problem": "Does the following series $\\sum_{i=0}^{\\infty} \\frac{n-1}{n^3+1}$ converge?",
+    "answer": "0"
+  },
+  {
+    "problem": "A large class is to be divided into teams and each student must be a member of exactly one team. However, each student dislikes three of their classmates. Dislike between students need not be mutual. If the teams do not need to be equally sized, how many must be created so that no student is the teammate of someone they dislike?",
+    "answer": "7"
+  },
+  {
+    "problem": "A monoatomic ideal gas undergoes a thermodynamic process according to the relation $PV^2$= constant. If the molar heat capacity of this gas at constant volume is C, then its molar heat capacity for the given process will be",
+    "answer": "C"
+  },
+  {
+    "problem": "A uniform disc of radius r and mass m is charged uniformly withe charge q. this disc is placed flat on a rough horizontal surface having coefficient of friction $ \\mu $ A uniform magnetic field is present in a circular region of radius a (> r) but varying as $ kt^3 $. find the time in second after which the disc begins to rotate. (Given r=1 m, m=18 kg, q=1 C, $ \\mu = 0.1 $, K=4, $ g=10 m/s^2) $",
+    "answer": "8"
+  },
+  {
+    "problem": "pH of a solution obtained by mixing equal volume of 0.2 M NaOH & 0.2 M ${ CH }_{ 3 }COOH\\quad \\left( { K }_{ a }={ 10 }^{ -5 } \\right)$ is :",
+    "answer": "7"
+  },
+  {
+    "problem": "Two moles of helium are mixed with n moles of hydrogen.If $\\frac{Cp}{Cv}$$=\\frac{3}{2}$ for the mixture , then the value of n is",
+    "answer": "1"
+  },
+  {
+    "problem": "A gas of identical hydrogen like atoms has some atoms in ground state and some atoms in a particular excited state and there are no atoms in any other energy level. The atoms of the gas make transition to a higher state by absorbing monochromatic light of wavelength $304 \\mathring A $. subsequently, the atoms emit radiation of only six different photon energies. Some of emitted photons have wavelength $304 \\mathring A $, some have wavelength more and some have less than $304 \\mathring A $ ( Take $hc = 12420 eV - \\mathring A $)Find the principal quantum number of the initially excited state.",
+    "answer": "1"
+  },
+  {
+    "problem": "10 ml of 0.1 M triprotic acid $H_3A$ is titrated with $0.1M\\: NaOH$ solution. If the ratio of $\\dfrac {[H_3A]}{[A^{3-}]}$ at $2^{nd}$ equivalence point is expressed as $10^{-p}$, then $p$ is :[Given : $K_1 = 10^{-4}; K_2 = 10^{-8}; K_3 = 10^{-12}$ for $H_3A$]",
+    "answer": "6"
+  },
+  {
+    "problem": "0.59g of the silver salt of an organic acid (mol.wt. 210) on ignition gave 0.36 g of  pure silver.The basicity of the acid is [AW of Ag=108]",
+    "answer": "3"
+  },
+  {
+    "problem": "What are the stages in the process of fresh milk spoilage?",
+    "answer": "5"
+  },
+  {
+    "problem": "How many archways are used in the Chinese Chakra Zang temple of Chakra Zang?",
+    "answer": "8"
+  },
+  {
+    "problem": "How many of the following statements about textile science are wrong? 1. In the single tongue method of tearing, a force triangle is formed at the tear opening, whereas in the trapezoidal method of tearing, there is no force triangle. 2. When satin fabrics undergo tearing, linear tears often appear. 3. The higher the drape coefficient, the softer the fabric. 4. Wool fabrics are crease-resistant, while polyester fabrics are not. 5. The fabric rupture is essentially multi-directional stretching. 6. During a bursting test, if the fabric is not held tightly enough, it may result in an increased burst strength. 7. The more air trapped inside the clothing, the better the insulation. 8. The itchiness and stiffness felt on the skin when in contact with fabric is mainly determined by the fiber's thickness, not the type of fiber. 9. In general, fabrics with good wrinkle resistance also have good crease recovery. 10. For the same knitted fabric, the anti-pulling performance in the knitting direction and the reverse knitting direction may not be the same.",
+    "answer": "5"
+  },
+  {
+    "problem": "How many years was Jacobus Johannes Fouché the head of state of South Africa?",
+    "answer": "7"
+  },
+  {
+    "problem": "How many candidates entered their work in the Prix de Rome in the engraving category in 1805?",
+    "answer": "1"
+  },
+  {
+    "problem": "How many minutes did the Fairey Albacore with Taurus XII used in World War II take to reach 6000 feet altitude in its time to altitude specification?",
+    "answer": "8"
+  },
+  {
+    "problem": "How many licenses to sell liquor did the council of Paris, Ontario, grant in 1850 when seven tavern keepers applied but were met with backlash from over 100 abolitionist villagers?",
+    "answer": "3"
+  },
+  {
+    "problem": "How many subjects are in the short form of the US Census?",
+    "answer": "7"
+  },
+  {
+    "problem": "The functional/grammatical words that can be filled in the parentheses are\n何谓和?曰:子不见天地之为寒暑乎?寒暑之极,至于折胶流金,而物不以为病,其变者微( ).",
+    "answer": "也"
+  },
+  {
+    "problem": "If group G has 65 elements and it has two subgroups namely K and L with order 14 and 30. What can be order of K intersection L?",
+    "answer": "5"
+  },
+  {
+    "problem": "Which of the following statements about journalism are correct?1.The research object of media management is media management phenomena, which only includes strategic management phenomena2.Alan B. Albarran, in \"Management of Media Organizations: Effective Leadership in Media,\" proposed the four major functions of media management.3.The concept of overall truth requires news reporting to go beyond the surface characteristics of facts and consider the internal connections and broader context.4.The third media refers to news dissemination tools that transmit text, audio, and images through the internet.",
+    "answer": "3"
+  },
+  {
+    "problem": "Consider the following statements about complete graphs. How many of these statements are TRUE?\n1. Kₙ is the graph with n vertices that has the fewest edges.\n2. Kₙ is a simple graph.\n3. If n is prime, then Kₙ is a bipartite graph.\n4. Kₙ is n-regular.\n5. Kₙ has n(n-1)/2 edges.\n6. Kₙ is the graph with n vertices having the maximum number of edges among disconnected graphs.\n7. The number of edges in Kₙ is given by the combination formula C(n, 2).\n8. Kₙ is the graph with n vertices that has the maximum number of edges among all graphs (including non-simple graphs).\n9. The complete graph K₁₀₁ contains a 1-factor.\n10. The complete graph K₁₀₂ contains a 2-factor.",
+    "answer": "5"
+  },
+  {
+    "problem": "Let the 3rd order matrix \\( A = (\\alpha_1, \\alpha_2, \\alpha_3), B = (\\alpha_2 - 2\\alpha_3, \\alpha_1, \\alpha_2) \\), if the determinant of \\( A \\) is \\( |A| = 2 \\), then the determinant of \\( B \\) is \\( |B| = \\) ( )",
+    "answer": "-4"
+  },
+  {
+    "problem": "Can the modern concept of territorial boundaries be applied to the ancient perspective?",
+    "answer": "No"
+  },
+  {
+    "problem": "$\\{A_n\\}_{n\\ge1}$ is a sequence of positive integers such that\n$$$a_n = 2a_{n-1} + n^2$$$\nfor all integers $n > 1$ . Compute the remainder obtained when $a_{2004}$ is divided by $1000$ if $a_1 = 1$ .",
+    "answer": "58"
+  },
+  {
+    "problem": "Let $p$ , $q$ , $r$ , and $s$ be positive real numbers such that\n$$\\begin{align*}p+q+r+s&=15\\\\p^2+q^2+r^2+s^2&=n\\end{align*}$$\nand $p\\ge q\\ge r\\ge s$ . Given that the minimum possible value of $pq-rs$ is $12$ for a choice of constant $n$ , the sum of the possible values of $n$ is $x$ . If $x$ is an integer, compute $x$ . If $x$ can be expressed as $\\frac mn$ for relatively prime positive integers $m$ and $n\\ne1$ , compute $m+n$ . If $x$ can be expressed as $\\frac{a+b\\sqrt c}d$ for positive integers $a$ , $b$ , $c$ , and $d$ such that $\\gcd(a,b,d)=1$ and $c$ is not divisible by the square of any prime, compute $a+b+c+d$ .",
+    "answer": "39"
+  },
+  {
+    "problem": "Let $S(n)$ be the sum of the squares of the digits of $n$ . How many positive integers $n>2007$ satisfy the inequality\n$$$n-S(n)\\le 2007?$$$",
+    "answer": "63"
+  },
+  {
+    "problem": "For each arrangement of the ten numbers $1,4,7,10,13,16,19,22,25,28$ around the circle, let $N$ denote the largest of the ten sums obtained by adding each number to the sum of its neighbors. What is the smallest value of $N$ that can be obtained?",
+    "answer": "48"
+  },
+  {
+    "problem": "Compute, to the nearest integer, the area of the region enclosed by the graph of\n$$$13x^2-20xy+ 52y^2 - 10x + 52y = 563.$$$",
+    "answer": "75"
+  },
+  {
+    "problem": "In parallelogram $ABCD$ , let a circle passing through $A$ intersect sides $AB, AC, AD$ in points $P,Q,R$ , respectively. Given that $AD=2013(AB)$ and $ AP=2013 (AR) $ , find the remainder when $ \\frac{(AQ) (AC)}{(AB) (AR)} $ is divided by $1000$ .",
+    "answer": "26"
+  },
+  {
+    "problem": "Two $5$ -digit numbers are called \"responsible\" if they are:\n$$\\begin{align*} &\\text {i. In form of abcde and fghij such that fghij = 2(abcde)}\\\\ &\\text {ii. all ten digits, a through j are all distinct.}\\\\ &\\text {iii.} a + b + c + d + e + f + g + h + i + j = 45\\end{align*}$$\nIf two \"responsible\" numbers are small as possible, what is the sum of the three middle digits of $\\text {abcde}$ and last two digits on the $\\text {fghij}$ ? That is, $b + c + d + i + j$ .",
+    "answer": "22"
+  },
+  {
+    "problem": "Find the remainder when $11^{2005}$ is divided by $1000$ .",
+    "answer": "51"
+  },
+  {
+    "problem": "For positive integers $n$ , let $f(n)$ denote the number of integers $1 \\leq a \\leq 130$ for which there exists some integer $b$ such that $a^b-n$ is divisible by $131$ , and let $g(n)$ denote the sum of all such $a$ . Find the remainder when\n$$$\\sum_{n = 1}^{130} [f(n) \\cdot g(n)]$$$\nis divided by $131$ .",
+    "answer": "54"
+  },
+  {
+    "problem": "Suppose $S_n$ is the set of positive divisors of $n$ , and denote $|X|$ as the number of elements in a set $X$ . Let $\\xi$ be the set of positive integers $n$ where $|S_n| = 2m$ is even, and $S_n$ can be partitioned evenly into pairs $\\{a_i, b_i\\}$ for integers $1 \\le i \\le m$ such that the following conditions hold:\n$\\bullet$ $a_i$ and $b_i$ are relatively prime for all integers $1 \\le i \\le m$\n$\\bullet$ There exists a $j$ where $6$ divides $a^2_j+ b^2_j+ 1$\n$\\bullet$ $|S_n| \\ge 20.$\nDetermine the number of positive divisors $d | 24!$ such that $d \\in \\xi$ .",
+    "answer": "64"
+  },
+  {
+    "problem": "$ABC$ is a scalene triangle. The circle with diameter $\\overline{AB}$ intersects $\\overline{BC}$ at $D$ , and $E$ is the foot of the altitude from $C$ . $P$ is the intersection of $\\overline{AD}$ and $\\overline{CE}$ . Given that $AP = 136$ , $BP = 80$ , and $CP = 26$ , determine the circumradius of $ABC$ .",
+    "answer": "85"
+  },
+  {
+    "problem": "If the reciprocal of sum of real roots of the following equation can be written in form of $\\frac {r}{s}$ where $(r,s) = 1$ , find $r + s$ .\n$$$1000x^6 - 1900x^5 - 1400x^4 - 190x^3 - 130x^2 - 38x - 30 = 0$$$",
+    "answer": "29"
+  },
+  {
+    "problem": "Find the number of pairs of primes $(p, q)$ , with $2 \\le p, q \\le 31$ , for which there exist integers $x$ and $y$ satisfying the equation\n$$$(x + p)^p = x^p + qy.$$$",
+    "answer": "29"
+  },
+  {
+    "problem": "Let $ABCD$ be a rectangle with $AB = CD = 6$ . Suppose that $E$ and $F$ lie on side $\\overline{AB}$ such that $AE = EF = FB = 2$ . Let $G$ denote the intersection of lines $\\overleftrightarrow{EC}$ and $\\overleftrightarrow{BD}$ ; let $H$ denote the intersection of lines $\\overleftrightarrow{FC}$ and $\\overleftrightarrow{BD}$ . Suppose that $E, F, G,$ and $H$ lie on a common circle. Find $BC^2$ .",
+    "answer": "44"
+  },
+  {
+    "problem": "For positive integers $k$ , let $f_k(x)=\\sum_{i=0}^{2022} k^{2022-i}x^i$ . Find the smallest positive integer $n$ such that\n$$$\\sum_{r_1 \\mid f_1(r_1)=0}\\sum_{r_2\\mid f_2(r_2)=0}\\cdots \\sum_{r_n\\mid f_n(r_n)=0}\\prod_{i=1}^{n}(2022-r_i)^{999}$$$\nis an integer multiple of 101.",
+    "answer": "35"
+  },
+  {
+    "problem": "Determine the smallest positive integer $n $ for which\n$$$\\frac{2 \\sin (16^o) \\cos (32^o)}{\\sin (29^o)}=\\sqrt2 - 2 \\sin (n^o)$$$",
+    "answer": "13"
+  },
+  {
+    "problem": "In the coordinate plane, an ant begins at the point $(0,0).$ When the ant is at $(x,y),$ it can move to either $(x+1,y)$ or $(x,y+1),$ but cannot move to a point whose coordinates leave the same nonzero remainder when divided by $4$ . The ant can take a total of $N$ paths to $(68,68)$ . Find the remainder when $N$ is divided by $1000$ .",
+    "answer": "60"
+  },
+  {
+    "problem": "Eleven nonparallel lines lie on a plane, and their pairwise intersections meet at angles of integer degree. How many possible values are there for the smallest of these angles?",
+    "answer": "16"
+  },
+  {
+    "problem": "In triangle $ABC$ , the bisector of angle $A$ meets side $\\overline{BC}$ at $D$ and the circumcircle of $ABC$ at $M$ . If $O_1$ and $O_2$ are the circumcenters of triangles $ABC$ and $ADC$ , respectively, and $O_1O_2 = 4$ , $MO_2 = 9$ , and $CO_2 = 7$ , compute $AC^2$ .",
+    "answer": "98"
+  },
+  {
+    "problem": "Determine the number of positive integer divisors of $6^{22}$ that are one more than a multiple of $7$ .",
+    "answer": "92"
+  },
+  {
+    "problem": "Eight boxes are numbered $A$ to $H$ . The number of ways you can put $16$ identical balls into the boxes such that none of them is empty is expressed as $\\binom {a}{b}$ , where $b \\le \\frac{a}{2}$ . What is the remainder when $\\binom {a}{b}$ is divided by $a + b$ ?",
+    "answer": "11"
+  },
+  {
+    "problem": "Let $\\triangle ABC$ be a triangle, and let $I_A$ , $I_B$ , and $I_C$ be the points where the angle bisectors of $A$ , $B$ , and $C$ , respectfully, intersect the sides opposite them. Given that $AI_B=5$ , $CI_B=4$ , and $CI_A=3$ , then the ratio $AI_C:BI_C$ can be written in the form $m/n$ where $m$ and $n$ are positive relatively prime integers. Find $m+n$ .",
+    "answer": "11"
+  },
+  {
+    "problem": "Assume a positive integer $A$ can be represented as the sum of $p$ consecutive positive integers: \\[ A = x + (x+1) + (x+2) + \\cdots + (x+p-1) \\] for $p=2017$ and for no other $p>1$. Among all such positive integers $A$, determine the smallest positive integer $x$ that appears in any of these representations.",
+    "answer": "16"
+  },
+  {
+    "problem": "Given positive integers $y$, define the sequence $l(y)$ by the following rules: $l(1) = 1$, $l(2y) = l(y)$, and $l(2y+1) = (-1)^y l(y)$. Find the value of \\[ \\sum_{y=1}^{1089} l(y) l(y+2). \\]",
+    "answer": "-1"
+  },
+  {
+    "problem": "Compute\n$$$\\left \\lfloor 100 \\sin(0^{\\circ}) \\right \\rfloor + \\left \\lceil 100 \\sin(1^{\\circ}) \\right \\rceil + \\dots + \\left \\lceil 100 \\sin(359^{\\circ}) \\right \\rceil + \\left \\lfloor 100 \\sin(360^{\\circ}) \\right \\rfloor.$$$",
+    "answer": "31"
+  },
+  {
+    "problem": "In triangle $ABC,$ $BC=9.$ Points $P$ and $Q$ are located on $BC$ such that $BP=PQ=2,$ $QC=5.$ The circumcircle of $APQ$ cuts $AB,AC$ at $D,E$ respectively. If $BD=CE,$ then the ratio $\\frac{AB}{AC}$ can be expressed in the form $\\frac{m}{n},$ where $m,n$ are relatively prime positive integers. Find $m+n.$",
+    "answer": "43"
+  },
+  {
+    "problem": "Compute the sum of the three smallest positive integers $n$ such that $n^4+4$ is a product of $2$ distinct primes.",
+    "answer": "23"
+  },
+  {
+    "problem": "A museum has 4 exhibition halls of the same size. The number of visitors to the museum is subject to the Puazon distribution, with an average of 96 people/h. Visitors were roughly evenly dispersed in each exhibition hall, and the stay time in each exhibition hall obeyed a negative exponential distribution of 1/u=15min, and they left after visiting 4 exhibition halls. Q: The museum's capacity per exhibition hall (the number of visitors it can hold) is designed to be a minimum so that the probability of overcrowding at any one time is less than 5%?",
+    "answer": "10"
+  },
+  {
+    "problem": "Concentration of bleaching powder used for disinfection oi urine and faeces is",
+    "answer": "5%"
+  },
+  {
+    "problem": "Day light factor in living rooms should be:",
+    "answer": "8%"
+  },
+  {
+    "problem": "Perform the division of the binary numbers 111101 by 1001 and determine the remainder.",
+    "answer": "11"
+  },
+  {
+    "problem": "Evaluate the given determinant.\n$$|-3|$$",
+    "answer": "-3"
+  },
+  {
+    "problem": "A 24-year-old woman with a large appetite for salt consumes about 25g of salt each day. What is the approximate amount of salt (in grams) that is excreted each day by her kidneys?",
+    "answer": "23"
+  },
+  {
+    "problem": "Sender chooses $\\mathrm{p}=1 0 7, \\mathrm{e_1}=2, \\mathrm{d}=6 7$, and the random integer is r=45. Find the plaintext to be transmitted if the ciphertext is (28,9).",
+    "answer": "66"
+  },
+  {
+    "problem": "To purify atmospheric pressure air at 20°C with a flow rate of $2500 \\mathrm{m}^3/\\mathrm{h}$ in a dust-settling chamber, ensuring the purified air contains no particles larger than $10 \\mu\\mathrm{m}$ in diameter, it is known that the required settling area is 128.6 $m^2$. If the base of the dust-settling chamber is $2\\mathrm{m} \\times 5\\mathrm{m}$, how many wooden boards should be added?",
+    "answer": "12"
+  },
+  {
+    "problem": "If dual sign bits are used, what are the values of the dual sign bits when the addition of two positive numbers results in an overflow?",
+    "answer": "01"
+  },
+  {
+    "problem": "The streptomycin-resistant ($Str^{r}$) F strain with the genotype $gal^{-} thr^{-} azi^{r} lac \\ \\ Ton^{r} mal^{-} xyl^{-} leu^{-}$ was crossed with a prototrophic $\\mathrm{Hfr}$ strain having opposite traits. After mating for 60 minutes, the samples were transferred to a minimal medium containing streptomycin. The original mixture contained $2 \\times 10^{7}$ Hfr cells and $4 \\times 10^{7}$ F cells. The percentages of gene transfer in the Hfr strain were 72% $ton^{s}$, 0% $mal^{+}$, 27% $gal^{+}$, 91% $azi^{s}$, 0% $xyl^{+}$, and 48% $lac^{+}$. In the original mixture, how many $F$ cells were present for each Hfr cell?",
+    "answer": "20"
+  },
+  {
+    "problem": "After blasting during shaft and tunnel excavation, relevant regulations stipulate that workers are only allowed to enter the blasting site after ventilation for ____ min.",
+    "answer": "15"
+  },
+  {
+    "problem": "How many solutions does the equation $\\sin x = \\frac{x}{100}$ have?",
+    "answer": "31"
+  },
+  {
+    "problem": "Given that the unit cell parameters for polymethyl methacrylate are $a \\times b \\times c = 2.108 \\times 1.217 \\times 1.055 \\,\\, \\mathrm{nm}, \\, \\alpha = \\beta = \\gamma = 90°$, and the measured density is $\\rho = 1.23 \\,\\, \\mathrm{g/cm}^{3}$, with $M_{0} = 100.1$, try to determine the number of repeating structural units in each unit cell is ().",
+    "answer": "20"
+  },
+  {
+    "problem": "A certain DRAM chip uses address multiplexing technology, with a capacity of 1024×8 bits. Apart from the power supply and ground pins, the minimum number of pins for this chip is (). (There are two read/write control lines)",
+    "answer": "17"
+  },
+  {
+    "problem": "There are 32 pieces of 256K×1-bit SRAM chips. Using a 32-bit word addressing scheme, how many address lines does this memory require?",
+    "answer": "18"
+  },
+  {
+    "problem": "The integer 8871870642308873326043363 is the $1 3^{t h}$ power of an integer $n$ . What is $n$ ?",
+    "answer": "83"
+  },
+  {
+    "problem": "The drafting of international law by intergovernmental organizations began in the () century?",
+    "answer": "19"
+  },
+  {
+    "problem": "It is known that the relationship pattern R (A,B,C,D,E) and the set of functional relationships on it $\\mathrm{F=\\{A \\to D, ~ B \\to C ~, ~ E \\to A}\\}$. The candidate keyword for this relational pattern is ().",
+    "answer": "BE"
+  },
+  {
+    "problem": "When a supernova explodes, its brightness changes by more than () magnitude.",
+    "answer": "20"
+  },
+  {
+    "problem": "Given an astronomical telescope with an objective lens diameter D=100 mm and a human pupil diameter d=2 mm, what magnification should be chosen for the telescope to fully utilize the resolving power of the objective lens?",
+    "answer": "50"
+  },
+  {
+    "problem": "Given the main string T=\"abaabaabcabaabe\", and the pattern string S=\"abaabc\", using the KMP algorithm for pattern matching, the number of individual character comparisons made until a successful match is achieved is ( ).",
+    "answer": "10"
+  },
+  {
+    "problem": "Cerebral blood flow below how much mL/(100g/min) can cause EEG changes?",
+    "answer": "22"
+  },
+  {
+    "problem": "How many years old (excluding school students) are required to pay social endowment insurance for urban residents in China?",
+    "answer": "16"
+  },
+  {
+    "problem": "If a traffic accident causes direct damage to public property or the property of others, and the responsible party is unable to compensate for the amount exceeding ______ten thousand yuan, they are considered to have committed the crime of traffic accident offense in China.",
+    "answer": "30"
+  },
+  {
+    "problem": "The CMRR value of the biopotential amplifier is above ( ) dB.",
+    "answer": "60"
+  },
+  {
+    "problem": "CPU designers have divided the CPU runlevels from the inside out into four: R0, R1, R2, R3, and the Windows operating system uses ().",
+    "answer": "R0"
+  },
+  {
+    "problem": "Calculate the Masson's ratio for a tree with 50 year rotation?",
+    "answer": "4%"
+  },
+  {
+    "problem": "$P=95\\%$ of dry years, the recurrence interval $t$ equals _____ years",
+    "answer": "20"
+  },
+  {
+    "problem": "What are the commonly used anaerobic processes in biogas engineering, including UASB, UBF, and which other process?",
+    "answer": "IC"
+  },
+  {
+    "problem": "How many molecules of ATP can be produced from the complete oxidation of one molecule of glucose?",
+    "answer": "32"
+  },
+  {
+    "problem": "In corn, the number of double recessive types among the offspring of the AB/ab × AB/ab cross accounts for 16% of all progeny. What is the genetic map distance between these two genes?",
+    "answer": "20"
+  },
+  {
+    "problem": "The distance between genes A and B is known to be 20 centimorgans, and the recombination value measured from the hybrid offspring is 18%. This indicates that the double crossover value between them is approximately?",
+    "answer": "1%"
+  },
+  {
+    "problem": "If NADH(H+) and FADH2 are calculated as 2.5 and 1.5 ATP respectively, how many ATP molecules are released when one molecule of pyruvate is completely oxidized into CO2 and H2O?",
+    "answer": "15"
+  },
+  {
+    "problem": "In the process of modulation from E major (including natural major and harmonic major modes) to g harmonic minor, which of the following statements is correct?\n① E major can modulate to G major through a pivot chord, and then to g harmonic minor through mode mixture\n② There are no common chords between E major and G major, so the modulation cannot be done through pivot chords\n③ Among the seventh chords formed by the scale of E harmonic major or g harmonic minor, there are a total of 3 diminished seventh chords\n④ E major and g minor are relative major and minor keys",
+    "answer": "①③"
+  },
+  {
+    "problem": "The augmented fourth above the subdominant in a C major key is the dominant of that major key, and the second note of the ascending chromatic scale of its parallel key is",
+    "answer": "la"
+  },
+  {
+    "problem": "What percent of the AB particles are dissociated by water if the freezing point of a(.0100 m) AB solution is -0.0193°C? The freezing point lowering constant of water is (-1.86°C / mole).",
+    "answer": "4%"
+  },
+  {
+    "problem": "How many triangles are there whose sides are all integers and whose maximum side length equals 11?",
+    "answer": "36"
+  },
+  {
+    "problem": "Let $V$ and $E$ denote the gravitational potential and gravitational field at a point, respectively. It is possible to have",
+    "answer": "$V"
+  },
+  {
+    "problem": "The length of the latus rectum of the parabola whose focus is (3,0) and directrix is 3x-4y-2=0 is",
+    "answer": "12"
+  },
+  {
+    "problem": "In Elgamal cryptosystem, given the prime p=31.\nChoose $e1=$ first primitive root of p and $\\mathrm{d=1 0}$. What is e2?",
+    "answer": "25"
+  },
+  {
+    "problem": "Products from a production line are packaged in boxes, with each box's weight being random. Assuming each box has an average weight of 50 kg and a standard deviation of 5 kg, how many boxes can each truck, with a maximum load capacity of 5 tons, carry at most to ensure the probability of not being overloaded is greater than 0.9779?",
+    "answer": "98"
+  },
+  {
+    "problem": "Approximately how many pounds of force are required to pull the timer knob from the timer of a LUU-2B/B aircraft parachute flare?",
+    "answer": "30"
+  }
+]
