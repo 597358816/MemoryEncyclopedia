@@ -1,0 +1,54 @@
+PROBLEM DESCRIPTION:
+You will be provided with the main description of the problem, previous steps, and the next step. Your task will be to generate the disciplinary knowledge necessary for solving the next step and then develop a Python solution focused on this step.
+
+PREVIOUS STEPS DESCRIPTION:
+Given two vectors, return the cross-product of these two vectors. The input should be two numpy arrays and the output should be one numpy array.
+
+
+def cross(a, b):
+    """
+    Calculates the cross product of the input vectors.
+    Input:
+    a (numpy array): Vector a.
+    b (numpy array): Vector b.
+    Output:
+    t (numpy array): The cross product of a and b.
+    """
+    t = np.cross(a,b)
+    return t
+
+
+NEXT STEP - PROBLEM DESCRIPTION AND FUNCTION HEADER:
+This part will describe the next step in the problem-solving process. First, provide the necessary scientific background knowledge as a comment at the beginning of your response, starting with 'Background: '. Then, a function header will be provided, and your task is to develop the Python code for this next step based on the provided description and function header.
+
+Given three vectors, provide a function that returns the reciprocal vectors of the input. The input is a list of three numpy arrays and the output should also be a list of three numpy arrays.
+
+def reciprocal_3D(a1, a2, a3):
+    '''Calculates the 3D reciprocal vectors given the input.
+    Input:
+    a1 (numpy array): Vector 1.
+    a2 (numpy array): Vector 2.
+    a3 (numpy array): Vector 3.
+    Returns:
+    b_i (list of numpy arrays): The collection of reciprocal vectors.
+    '''
+
+    return b_i
+
+DEPENDENCIES:
+Use only the following dependencies in your solution. Do not include these dependencies at the beginning of your code.
+import numpy as np
+
+RESPONSE GUIDELINES:
+1. Start with the scientific background required for the next step, formatted as a comment.
+2. Then write the complete and executable Python program for the next step in a single block.
+3. Your response should focus exclusively on implementing the solution for the next step, adhering closely to the specified function header and the context provided by the initial steps.
+4. DO NOT include previous function code, example usage or test code in your response.
+5. Ensure your response is in the format of ```python``` and includes the necessary background as a comment at the top.
+
+Example:
+```python
+# Background: [Here, insert the necessary scientific knowledge required for the next step.]
+
+[Insert the Python code here based on the provided function header and dependencies.]
+```

@@ -1,0 +1,27 @@
+{
+  "name": "Terminal-Bench 2.0",
+  "benchmark_id": "terminal-bench/terminal-bench-2",
+  "version": "2.0",
+  "task_count": 89,
+  "official_hub": "https://hub.harborframework.com/datasets/terminal-bench/terminal-bench-2",
+  "official_repo": "https://github.com/harbor-framework/terminal-bench-2",
+  "official_harness_repo": "https://github.com/harbor-framework/harbor",
+  "paper": "https://arxiv.org/abs/2601.11868",
+  "license": "Apache-2.0",
+  "ground_truth": {
+    "type": "programmatic_verifier",
+    "public_oracle_solution": true,
+    "public_tests": true,
+    "canonical_text_answer": false
+  },
+  "evaluation": {
+    "official_harness": "Harbor",
+    "registered_dataset": "terminal-bench/terminal-bench-2",
+    "metric": "verifier reward / success rate",
+    "execution": "agent in task-specific container environment",
+    "docker_required_for_local_run": true,
+    "benchmark_wide_privileged_requirement": false,
+    "note": "Individual tasks may have their own resource/environment constraints."
+  },
+  "model_input_policy": "Use tasks.jsonl/prompts.jsonl only. Never expose gold.jsonl, data.jsonl, solution/, or tests/ to the model."
+}

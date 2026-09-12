@@ -1,0 +1,30 @@
+{
+  "hf_dataset": "ScaleAI/SWE-bench_Pro",
+  "hf_split": "test",
+  "hf_revision": "7ab5114912baf22bb098818e604c02fe7ad2c11f",
+  "count": 731,
+  "repo_count": 11,
+  "repo_counts": {
+    "NodeBB/NodeBB": 44,
+    "ansible/ansible": 96,
+    "element-hq/element-web": 56,
+    "flipt-io/flipt": 85,
+    "future-architect/vuls": 62,
+    "gravitational/teleport": 76,
+    "internetarchive/openlibrary": 91,
+    "navidrome/navidrome": 57,
+    "protonmail/webclients": 65,
+    "qutebrowser/qutebrowser": 79,
+    "tutao/tutanota": 20
+  },
+  "language_counts": {
+    "go": 280,
+    "js": 165,
+    "python": 266,
+    "ts": 20
+  },
+  "model_input": "tasks.jsonl",
+  "evaluator_input": "raw.jsonl",
+  "gold": "gold.jsonl",
+  "encyclopedia_pairs": "data.jsonl"
+}

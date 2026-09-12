@@ -1,0 +1,39 @@
+{
+  "name": "SWE-bench Pro",
+  "organization": "Scale AI",
+  "official_repo": "https://github.com/scaleapi/SWE-bench_Pro-os",
+  "official_dataset": "ScaleAI/SWE-bench_Pro",
+  "paper": "https://arxiv.org/abs/2509.16941",
+  "license": "MIT",
+  "as_of": "2026-09-09",
+  "full_paper_tasks": 1865,
+  "public_hf_tasks_current": 731,
+  "public_repositories": 11,
+  "held_out_repositories": 12,
+  "commercial_repositories": 18,
+  "public_languages": [
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "Go"
+  ],
+  "ground_truth": {
+    "exists": true,
+    "public_public_split": true,
+    "type": "gold patch + fail-to-pass/pass-to-pass programmatic tests"
+  },
+  "official_evaluation": {
+    "environment": "per-instance Docker image",
+    "dockerhub_repository": "jefzda/sweap-images",
+    "harness": "scaleapi/SWE-bench_Pro-os/swe_bench_pro_eval.py",
+    "pass_condition": "all fail_to_pass and pass_to_pass tests are PASSED",
+    "modal_recommended": true,
+    "local_docker_supported": true
+  },
+  "important": [
+    "The current public HF dataset has 731 rows. The official public leaderboard page may use a slightly different denominator after benchmark maintenance; pin dataset and evaluator revisions.",
+    "Model input must never contain patch, test_patch, fail_to_pass, pass_to_pass, or selected_test_files_to_run.",
+    "This deployment stores those fields in evaluator-only raw/gold files.",
+    "The full 1,865-task benchmark is not publicly self-hostable because held-out and commercial portions are private."
+  ]
+}

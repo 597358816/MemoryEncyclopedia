@@ -1,0 +1,10 @@
+services:
+  main:
+    image: alexgshaw/make-mips-interpreter:20251031
+    command: ["sh", "-c", "sleep infinity"]
+    working_dir: /app
+    cpus: 1
+    mem_limit: 2048m
+    volumes:
+      - /vepfs-mlp2/c20250203/public/wc/Memory_encyclopedia/external/terminal-bench-2/terminal-bench-2/make-mips-interpreter/tests:/tests:ro
+      - /vepfs-mlp2/c20250203/public/wc/Memory_encyclopedia/test/tb2_compose_exec_diag/logs:/logs/verifier

@@ -1,0 +1,37 @@
+{
+  "benchmark": "LiveCodeBench",
+  "scenario": "codegeneration",
+  "dataset_repo": "livecodebench/code_generation_lite",
+  "formal_config": "release_v6",
+  "smoke_config": "v6",
+  "official_repo": "https://github.com/LiveCodeBench/LiveCodeBench",
+  "paper": "LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code",
+  "paper_arxiv": "2403.07974",
+  "release_v6": {
+    "definition": "cumulative May 2023 through Apr 2025",
+    "num_examples": 1055,
+    "download_size_bytes_approx": 4334453467
+  },
+  "v6_slice": {
+    "definition": "fine-grained v6 slice only; useful for smoke testing",
+    "num_examples_current_hf": 167,
+    "download_size_bytes_approx": 550111964
+  },
+  "gt": {
+    "public": true,
+    "type": "public and private executable test cases distributed in the public HF dataset",
+    "canonical_text_answer": false,
+    "primary_evaluator": "official LiveCodeBench modified APPS checker",
+    "metrics": [
+      "pass@1",
+      "pass@5"
+    ]
+  },
+  "default_local_metric": "pass@1 with one generated code candidate per problem",
+  "notes": [
+    "code_generation_lite is the official pruned-test default and is substantially faster than the full-test variant.",
+    "Standard LiveCodeBench does not require LightCPVerifier/go-judge/privileged Docker.",
+    "The evaluator executes generated code locally; use an isolated account/container/VM for untrusted generations.",
+    "Dataset loading has known version_tag/config compatibility issues in some datasets versions; this package provides a narrow compatibility shim."
+  ]
+}

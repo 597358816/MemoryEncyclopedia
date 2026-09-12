@@ -1,0 +1,20 @@
+{
+  "dataset_repo": "livecodebench/code_generation_lite",
+  "dataset_revision": "0fe84c3912ea0c4d4a78037083943e8f0c4dd505",
+  "config": "release_v6",
+  "count": 1055,
+  "columns": [
+    "question_title",
+    "question_content",
+    "platform",
+    "question_id",
+    "contest_id",
+    "contest_date",
+    "starter_code",
+    "difficulty",
+    "public_test_cases",
+    "private_test_cases",
+    "metadata"
+  ],
+  "cache_dir": "/vepfs-mlp2/c20250203/250602012/cache/scicode/huggingface/datasets"
+}

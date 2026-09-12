@@ -1,0 +1,66 @@
+{
+  "official_repo": "/vepfs-mlp2/c20250203/public/wc/Memory_encyclopedia/external/Physics",
+  "official_commit": "15dc8d90e7196690c279827f472bf27993b3d04e",
+  "splits": {
+    "test": {
+      "count": 1000,
+      "graph_tasks": 232,
+      "domain_counts": {
+        "atomic": 155,
+        "electro": 185,
+        "mechanics": 171,
+        "optics": 122,
+        "quantum": 183,
+        "statistics": 184
+      }
+    },
+    "validation": {
+      "count": 297,
+      "graph_tasks": 66,
+      "domain_counts": {
+        "atomic": 45,
+        "electro": 57,
+        "mechanics": 50,
+        "optics": 36,
+        "quantum": 53,
+        "statistics": 56
+      }
+    },
+    "hard": {
+      "count": 523,
+      "graph_tasks": 184,
+      "domain_counts": {
+        "atomic": 82,
+        "electro": 93,
+        "mechanics": 104,
+        "optics": 83,
+        "quantum": 81,
+        "statistics": 80
+      }
+    },
+    "textonly": {
+      "count": 999,
+      "graph_tasks": 0,
+      "domain_counts": {
+        "atomic": 187,
+        "electro": 170,
+        "mechanics": 133,
+        "optics": 93,
+        "quantum": 204,
+        "statistics": 212
+      }
+    },
+    "all": {
+      "count": 1297,
+      "graph_tasks": 298,
+      "domain_counts": {
+        "atomic": 200,
+        "electro": 242,
+        "mechanics": 221,
+        "optics": 158,
+        "quantum": 236,
+        "statistics": 240
+      }
+    }
+  }
+}

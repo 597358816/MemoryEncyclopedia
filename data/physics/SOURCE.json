@@ -1,0 +1,68 @@
+{
+  "name": "PHYSICS",
+  "title": "PHYSICS: Benchmarking Foundation Models on University-Level Physics Problem Solving",
+  "official_repo": "https://github.com/yale-nlp/Physics",
+  "paper": "https://arxiv.org/abs/2503.21821",
+  "acl": "https://aclanthology.org/2025.findings-acl.610/",
+  "license": "MIT",
+  "as_of": "2026-09-09",
+  "total_problems": 1297,
+  "test_problems": 1000,
+  "validation_problems": 297,
+  "domains": [
+    "atomic",
+    "electro",
+    "mechanics",
+    "optics",
+    "quantum",
+    "statistics"
+  ],
+  "domain_labels": {
+    "atomic": "Atomic Physics",
+    "electro": "Electromagnetism",
+    "mechanics": "Classical Mechanics",
+    "optics": "Optics",
+    "quantum": "Quantum Mechanics",
+    "statistics": "Thermodynamics & Statistical Mechanics"
+  },
+  "official_record_fields": [
+    "id",
+    "questions",
+    "solutions",
+    "final_answers",
+    "graphs"
+  ],
+  "ground_truth": {
+    "exists": true,
+    "public": true,
+    "field": "final_answers",
+    "type": "list of one or more final answers"
+  },
+  "official_evaluation": {
+    "answer_extraction": "extract boxed final answers",
+    "symbolic_checker": "SymPy LaTeX parsing/equivalence",
+    "fallback_judge": "GPT-4o",
+    "llm_judge_required_for_exact_official_pipeline": true,
+    "problem_score": "fraction of extracted boxed answers that match any reference final answer",
+    "overall_score": "mean problem accuracy"
+  },
+  "official_generation_baseline": {
+    "framework": "vLLM",
+    "temperature": 0,
+    "max_tokens": 8192,
+    "repetition_penalty": 1.2
+  },
+  "variants_in_official_repo": [
+    "PHYSICS-test",
+    "PHYSICS-eval",
+    "PHYSICS-hard",
+    "PHYSICS-textonly"
+  ],
+  "notes": [
+    "The canonical local data.jsonl in this pack is the 1000-problem official test split.",
+    "Validation (297), hard and text-only variants are also materialized when present.",
+    "Some tasks are multimodal; use tasks.jsonl to preserve the `graphs` field.",
+    "The local SymPy-only scorer is a development lower bound and is not leaderboard-identical.",
+    "The official hybrid scorer requires only a normal OPENAI_API_KEY; there is no PHYSICS-specific grader approval."
+  ]
+}

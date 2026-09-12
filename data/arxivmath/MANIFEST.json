@@ -1,0 +1,48 @@
+{
+  "releases": [
+    {
+      "release": "2025-12",
+      "dataset": "MathArena/arxivmath-1225",
+      "split": "train",
+      "hf_revision": "90c60aa1eadbb72168640169d82154b079cdeaac",
+      "count": 17
+    },
+    {
+      "release": "2026-01",
+      "dataset": "MathArena/arxivmath-0126",
+      "split": "train",
+      "hf_revision": "bac939ba603c93f905aa48072980ea681a2824cd",
+      "count": 23
+    },
+    {
+      "release": "2026-02",
+      "dataset": "MathArena/arxivmath-0226",
+      "split": "train",
+      "hf_revision": "a038fd1b01405ea1102e165b6ef43693fd16ca6b",
+      "count": 32
+    },
+    {
+      "release": "2026-03",
+      "dataset": "MathArena/arxivmath-0326",
+      "split": "train",
+      "hf_revision": "14ff32983ae4c72b75fb64eba750f3c27f46607a",
+      "count": 30
+    },
+    {
+      "release": "2026-04",
+      "dataset": "MathArena/arxivmath-0426",
+      "split": "train",
+      "hf_revision": "5e58127fba079b6db1c5aef0fee5dc61fc43da8d",
+      "count": 41
+    },
+    {
+      "release": "2026-05",
+      "dataset": "MathArena/arxivmath-0526",
+      "split": "train",
+      "hf_revision": "69f701c7f266bfba235ef302ff9b19093f7455bb",
+      "count": 40
+    }
+  ],
+  "combined_count": 183,
+  "combined_file": "data.jsonl"
+}

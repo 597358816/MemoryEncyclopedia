@@ -1,0 +1,13 @@
+{
+  "name": "olymmath_en_hard",
+  "huggingface_dataset": "RUC-AIBOX/OlymMATH",
+  "config": "en-hard",
+  "split": "test",
+  "source_url": "https://huggingface.co/datasets/RUC-AIBOX/OlymMATH",
+  "license": "MIT",
+  "notes": "English hard split of OlymMATH; direct problem/answer pairs.",
+  "output_schema": {
+    "problem": "string",
+    "answer": "string"
+  }
+}

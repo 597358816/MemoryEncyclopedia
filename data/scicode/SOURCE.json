@@ -1,0 +1,38 @@
+{
+  "benchmark": "SciCode",
+  "paper": "SciCode: A Research Coding Benchmark Curated by Scientists",
+  "paper_arxiv": "2407.13168",
+  "official_repo": "https://github.com/scicode-bench/SciCode",
+  "official_dataset": "SciCode1/SciCode",
+  "official_dataset_files": [
+    "problems_dev.jsonl",
+    "problems_test.jsonl"
+  ],
+  "numeric_ground_truth": {
+    "official_distribution": "Google Drive link referenced by upstream README",
+    "local_download_strategy": "Use a public HF mirror of the original raw_ground.h5 for reproducibility",
+    "mirror_repo": "akshathmangudi/SciCode",
+    "mirror_file": "raw/raw_ground.h5",
+    "expected_sha256": "48b0272a88b17dbd29777c217e1b4fb2b019b92e11cc2add847409db9541b890",
+    "expected_size_bytes_approx": 1050000000
+  },
+  "license": "Apache-2.0 (official SciCode repo / official problem dataset)",
+  "splits": {
+    "validation": 15,
+    "test": 65
+  },
+  "total_main_problems": 80,
+  "total_subproblems_reported_by_authors": 338,
+  "gt": {
+    "type": "public executable reference code + public tests + public numeric HDF5 targets",
+    "public": true,
+    "canonical_unique_text_answer": false,
+    "primary_evaluator": "official SciCode inspect_ai integration",
+    "main_problem_rule": "Solved iff every scored sub-step passes"
+  },
+  "notes": [
+    "Official inspect_ai integration is the recommended evaluator.",
+    "Gold mode is intended for validation-set sanity checks.",
+    "SciCode-Verified (2026) is a separate corrected derivative benchmark and is not silently substituted here."
+  ]
+}

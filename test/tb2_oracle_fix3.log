@@ -1,0 +1,42 @@
+[smoke] task=make-mips-interpreter
+[path]  /vepfs-mlp2/c20250203/public/wc/Memory_encyclopedia/external/terminal-bench-2/terminal-bench-2/make-mips-interpreter
+[note]  oracle runs public solution/solve.sh, then the official verifier
+
+        Environment Variables         
+  Variable         ┃  Phase           
+━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━
+  TB2_HTTP_PROXY   │  [verifier.env]  
+  TB2_HTTPS_PROXY  │  [verifier.env]  
+
+Tasks in this run will load these from your environment. Proceed? (Y/n): [TB2FIX3] compose exec: forcing buffered collector (timeout_sec=None)
+[TB2FIX3] compose exec: forcing buffered collector (timeout_sec=None)
+[TB2FIX3] compose exec: forcing buffered collector (timeout_sec=1800)
+[TB2FIX3] compose exec: forcing buffered collector (timeout_sec=None)
+[TB2FIX3] compose exec: forcing buffered collector (timeout_sec=None)
+[TB2FIX3] compose exec: forcing buffered collector (timeout_sec=None)
+[TB2FIX3] compose exec: forcing buffered collector (timeout_sec=None)
+[TB2FIX3] compose exec: forcing buffered collector (timeout_sec=None)
+[TB2FIX3] compose exec: forcing buffered collector (timeout_sec=None)
+[TB2FIX3] compose exec: forcing buffered collector (timeout_sec=None)
+[TB2FIX3] compose exec: forcing buffered collector (timeout_sec=None)
+  1/1 Mean: 0.000 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0:00:14 0:00:00
+adhoc • oracle
+┏━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━┓
+┃ Trials ┃ Exceptions ┃  Mean ┃
+┡━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━┩
+│      0 │          1 │ 0.000 │
+└────────┴────────────┴───────┘
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━┓
+┃ Exception               ┃ Count ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━┩
+│ RewardFileNotFoundError │     1 │
+└─────────────────────────┴───────┘
+
+Job Info
+Total runtime: 14s
+Results written to jobs/2026-09-11__03-49-36/result.json
+Inspect results by running `harbor view jobs`
+Share results by running `harbor upload jobs/2026-09-11__03-49-36`
+
+03:50:12 - LiteLLM:WARNING: get_model_cost_map.py:454 - LiteLLM: Failed to fetch remote model cost map from https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json: [Errno 101] Network is unreachable. Falling back to local backup.

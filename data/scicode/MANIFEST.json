@@ -1,0 +1,14 @@
+{
+  "benchmark": "SciCode",
+  "main_problem_count": 80,
+  "split_counts": {
+    "validation": 15,
+    "test": 65
+  },
+  "substep_count_from_downloaded_rows": 341,
+  "author_reported_total_subproblems": 338,
+  "model_input": "tasks.jsonl",
+  "evaluator_only_gt": "gold.jsonl + external/SciCode/eval/data/test_data.h5",
+  "convenience_gt_exposing_view": "data.jsonl",
+  "canonical_evaluator": "official inspect_ai integration"
+}

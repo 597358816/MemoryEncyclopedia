@@ -1,0 +1,7 @@
+services:
+  main:
+    image: alexgshaw/make-mips-interpreter:20251031
+    command: ["sh", "-c", "sleep infinity"]
+    working_dir: /app
+    volumes:
+      - /vepfs-mlp2/c20250203/public/wc/Memory_encyclopedia/test/tb2_compose_stdin_probe/logs:/logs/verifier

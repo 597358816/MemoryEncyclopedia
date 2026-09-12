@@ -1,0 +1,14 @@
+{
+  "hf_repo": "openai/frontierscience",
+  "hf_file": "olympiad/test.jsonl",
+  "hf_revision": "647a421c89d15aceaaa1a328e69b950b7632d2cf",
+  "count": 100,
+  "subject_counts": {
+    "biology": 10,
+    "chemistry": 40,
+    "physics": 50
+  },
+  "canonical_model_input": "tasks.jsonl",
+  "canonical_gold": "gold.jsonl",
+  "encyclopedia_pair_file": "data.jsonl"
+}

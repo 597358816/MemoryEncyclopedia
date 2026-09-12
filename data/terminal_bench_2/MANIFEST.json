@@ -1,0 +1,49 @@
+{
+  "benchmark": "Terminal-Bench 2.0",
+  "official_dataset": "terminal-bench/terminal-bench-2",
+  "task_count": 89,
+  "expected_task_count": 89,
+  "source_tree": "/vepfs-mlp2/c20250203/public/wc/Memory_encyclopedia/external/terminal-bench-2",
+  "category_counts": {
+    "data-processing": 4,
+    "data-querying": 1,
+    "data-science": 8,
+    "debugging": 5,
+    "file-operations": 5,
+    "games": 1,
+    "machine-learning": 3,
+    "mathematics": 4,
+    "model-training": 4,
+    "optimization": 1,
+    "personal-assistant": 1,
+    "scientific-computing": 8,
+    "security": 8,
+    "software-engineering": 26,
+    "system-administration": 9,
+    "video-processing": 1
+  },
+  "difficulty_counts": {
+    "easy": 4,
+    "hard": 30,
+    "medium": 55
+  },
+  "ground_truth": {
+    "exists": true,
+    "public": true,
+    "type": "programmatic_verifier",
+    "oracle_solution_public": true,
+    "tests_public": true,
+    "canonical_text_answer": false
+  },
+  "evaluation": {
+    "official_harness": "Harbor",
+    "local_requires_docker": true,
+    "metric": "reward / success rate",
+    "model_output_type": "interactive terminal actions / modified environment state",
+    "offline_text_answer_scoring": false
+  },
+  "model_safe_input": "tasks.jsonl",
+  "prompt_catalog": "prompts.jsonl",
+  "evaluator_only_gt": "gold.jsonl",
+  "convenience_problem_answer_view": "data.jsonl"
+}

@@ -1,0 +1,37 @@
+{
+    "id": "a2217ad6-16a7-4cb9-9349-7a4f67721116",
+    "started_at": "2026-09-11T03:24:52.269137",
+    "updated_at": "2026-09-11T03:25:05.951858",
+    "finished_at": "2026-09-11T03:25:05.951858",
+    "n_total_trials": 1,
+    "stats": {
+        "n_completed_trials": 1,
+        "n_errored_trials": 1,
+        "n_running_trials": 0,
+        "n_pending_trials": 0,
+        "n_cancelled_trials": 0,
+        "n_retries": 0,
+        "evals": {
+            "oracle__adhoc": {
+                "n_trials": 0,
+                "n_errors": 1,
+                "metrics": [
+                    {
+                        "mean": 0.0
+                    }
+                ],
+                "pass_at_k": {},
+                "reward_stats": {},
+                "exception_stats": {
+                    "RewardFileNotFoundError": [
+                        "make-mips-interpreter__qe6XGRt"
+                    ]
+                }
+            }
+        },
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null
+    }
+}

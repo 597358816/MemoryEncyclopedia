@@ -1,0 +1,13 @@
+{
+  "name": "omni_math",
+  "huggingface_dataset": "KbsdJames/Omni-MATH",
+  "config": null,
+  "split": "test",
+  "source_url": "https://huggingface.co/datasets/KbsdJames/Omni-MATH",
+  "license": "Apache-2.0",
+  "notes": "Full official Omni-MATH test split.",
+  "output_schema": {
+    "problem": "string",
+    "answer": "string"
+  }
+}

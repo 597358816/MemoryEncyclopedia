@@ -1,0 +1,56 @@
+{
+  "name": "ArXivMath",
+  "organization": "MathArena / ETH Zurich",
+  "benchmark_type": "dynamic research-level final-answer mathematics",
+  "license": "CC-BY-SA-4.0",
+  "official_repo": "https://github.com/eth-sri/matharena",
+  "homepage": "https://matharena.ai/arxivmath/",
+  "paper": "https://arxiv.org/abs/2605.00674",
+  "as_of": "2026-09-09",
+  "releases": [
+    {
+      "release": "2025-12",
+      "dataset": "MathArena/arxivmath-1225",
+      "split": "train",
+      "expected_count": 17
+    },
+    {
+      "release": "2026-01",
+      "dataset": "MathArena/arxivmath-0126",
+      "split": "train",
+      "expected_count": 23
+    },
+    {
+      "release": "2026-02",
+      "dataset": "MathArena/arxivmath-0226",
+      "split": "train",
+      "expected_count": 32
+    },
+    {
+      "release": "2026-03",
+      "dataset": "MathArena/arxivmath-0326",
+      "split": "train",
+      "expected_count": 30
+    },
+    {
+      "release": "2026-04",
+      "dataset": "MathArena/arxivmath-0426",
+      "split": "train",
+      "expected_count": 41
+    },
+    {
+      "release": "2026-05",
+      "dataset": "MathArena/arxivmath-0526",
+      "split": "train",
+      "expected_count": 40
+    }
+  ],
+  "expected_total": 183,
+  "official_prompt": "You are given a difficult question. Your task is to solve the problem. Put the final answer you find within \\\\boxed{{}}.",
+  "official_grading": "MathArena parser + symbolic answer comparison; competition configs use strict_parsing: false.",
+  "notes": [
+    "Use the monthly datasets rather than the stale/partial aggregate MathArena/arxivmath when reproducing all currently published releases.",
+    "Each monthly release is a separate benchmark slice and should also be reported separately if comparing with the MathArena leaderboard.",
+    "The combined 183-row file is a convenience dataset for this encyclopedia; it is not itself a single official leaderboard competition."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "supergpqa_hard",
+  "huggingface_dataset": "m-a-p/SuperGPQA",
+  "config": null,
+  "split": "train",
+  "source_url": "https://huggingface.co/datasets/m-a-p/SuperGPQA",
+  "license": "ODC-BY (plus upstream-source obligations; review dataset card)",
+  "notes": "Only rows with difficulty == hard. Options are embedded in problem; answer is the gold option letter.",
+  "output_schema": {
+    "problem": "string",
+    "answer": "string"
+  }
+}
