@@ -1,2 +1,4 @@
 external/*
 data/scicode/cache/*
+jobs/*
+test/*
