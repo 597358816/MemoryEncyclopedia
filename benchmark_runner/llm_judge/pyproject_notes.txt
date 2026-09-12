@@ -1,0 +1,2 @@
+No installation is required when this folder is at the repository root.
+Run from the repo root, or export PYTHONPATH=/path/to/MemoryEncyclopedia:$PYTHONPATH

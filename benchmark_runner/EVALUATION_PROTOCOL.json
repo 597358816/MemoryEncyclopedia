@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "answer_evaluation": {
+    "benchmarks": [
+      "arxivmath",
+      "olymmath",
+      "physics",
+      "frontierscience_olympiad"
+    ],
+    "evaluator": "Qwen3-14B unified local judge",
+    "judge_model": "/vepfs-mlp2/c20250203/250602012/models/Qwen/Qwen3-14B/",
+    "headline_metric": "accuracy_all",
+    "invalid_policy": "count_as_not_correct",
+    "note": "Not the original official answer-scoring protocol."
+  },
+  "executable_evaluation": {
+    "livecodebench": "official LiveCodeBench executable evaluator",
+    "scicode": "official SciCode Inspect + executable/HDF5 tests",
+    "swebench_pro": "official repository tests; agent runner required"
+  }
+}

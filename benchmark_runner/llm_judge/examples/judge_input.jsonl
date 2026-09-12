@@ -1,0 +1,2 @@
+{"item_id": "math-1", "problem": "What is 2 + 2?", "candidate": "4", "reference": "4", "rubric": "Accept answers equivalent to the integer 4."}
+{"item_id": "qa-1", "problem": "What is the capital of France?", "candidate": "London", "reference": "Paris"}
