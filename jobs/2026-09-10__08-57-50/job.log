@@ -1,4 +1,0 @@
-Collecting main service artifacts
-Trial make-mips-interpreter__amkUqz5 failed: No reward file found at jobs/2026-09-10__08-57-50/make-mips-interpreter__amkUqz5/verifier/reward.txt or jobs/2026-09-10__08-57-50/make-mips-interpreter__amkUqz5/verifier/reward.json
-Exception RewardFileNotFoundError is in exclude_exceptions, not retrying
-Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached

@@ -1,7 +1,0 @@
-Skipping image OS validation for alexgshaw/make-mips-interpreter:20251031: docker inspect returned 1
-Trial make-mips-interpreter__9CGLYSb failed: Docker compose command failed for environment make-mips-interpreter. Command: docker compose --project-name make-mips-interpreter__9cglysb__env --project-directory /vepfs-mlp2/c20250203/public/wc/Memory_encyclopedia/external/terminal-bench-2/terminal-bench-2/make-mips-interpreter/environment -f /vepfs-mlp2/c20250203/250602012/tmp/tmpp_45rsq2/make-mips-interpreter__9CGLYSb__env-docker-compose-resources.json -f /vepfs-mlp2/c20250203/250602012/Anaconda/envs/tb2/lib/python3.12/site-packages/harbor/environments/docker/docker-compose-prebuilt.yaml -f /vepfs-mlp2/c20250203/250602012/tmp/tmp8tyhhu4e/docker-compose-environment.json -f /vepfs-mlp2/c20250203/250602012/tmp/tmp2d8779ks/docker-compose-mounts.json up --detach --wait. Return code: 1. Stdout:  Image alexgshaw/make-mips-interpreter:20251031 Pulling 
- Image alexgshaw/make-mips-interpreter:20251031 Error Get "https://registry-1.docker.io/v2/": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
-Error response from daemon: Get "https://registry-1.docker.io/v2/": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)
-. Stderr: None. 
-Collecting main service artifacts
-Not retrying trial because the maximum number of retries has been reached
