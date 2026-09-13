@@ -1,0 +1,35 @@
+{
+  "dataset": "RUC-AIBOX/OlymMATH",
+  "official_huggingface": "https://huggingface.co/datasets/RUC-AIBOX/OlymMATH",
+  "official_github": "https://github.com/RUCAIBox/OlymMATH",
+  "huggingface_revision": "2c6532ea2cf929ac1c421532af5951553eaee727",
+  "natural_language": {
+    "en-easy": 100,
+    "en-hard": 100,
+    "zh-easy": 100,
+    "zh-hard": 100,
+    "en-all": 200,
+    "zh-all": 200,
+    "unique_problems": 200,
+    "note": "English and Chinese are parallel versions of the same 200 natural-language problems."
+  },
+  "lean": {
+    "rows": 150,
+    "path": "lean/data.jsonl",
+    "wired_into_current_llm_judge_runner": false
+  },
+  "download_sources": {
+    "en-easy": "https://huggingface.co/datasets/RUC-AIBOX/OlymMATH/resolve/2c6532ea2cf929ac1c421532af5951553eaee727/data/OlymMATH-EN-EASY.jsonl?download=true",
+    "en-hard": "https://huggingface.co/datasets/RUC-AIBOX/OlymMATH/resolve/2c6532ea2cf929ac1c421532af5951553eaee727/data/OlymMATH-EN-HARD.jsonl?download=true",
+    "zh-easy": "https://huggingface.co/datasets/RUC-AIBOX/OlymMATH/resolve/2c6532ea2cf929ac1c421532af5951553eaee727/data/OlymMATH-ZH-EASY.jsonl?download=true",
+    "zh-hard": "https://huggingface.co/datasets/RUC-AIBOX/OlymMATH/resolve/2c6532ea2cf929ac1c421532af5951553eaee727/data/OlymMATH-ZH-HARD.jsonl?download=true",
+    "lean": "https://huggingface.co/datasets/RUC-AIBOX/OlymMATH/resolve/2c6532ea2cf929ac1c421532af5951553eaee727/data/OlymMATH-LEAN.jsonl?download=true"
+  },
+  "raw_sha256": {
+    "en-easy": "1d96903b3017abd80388005ca9ad68c8074540ad6f41ee7cd92ac79cbcf5bc0a",
+    "en-hard": "f43b48f5569a5e6d3068e110f8ce6c5ec641ba4d6ba06d9a91a1c944526b7be4",
+    "zh-easy": "133bf074b16702bfe938dfd1736373b0e093f460f232fb25f4c064ed948c52bc",
+    "zh-hard": "f56746b739a20b3abf0c3daa3209cd2f48fc0663352bf7bdff34ae18b01fef58",
+    "lean": "8b4d18614cef03f401425b8a681aaf400127b25c20f1136eeb85af776a1815f4"
+  }
+}

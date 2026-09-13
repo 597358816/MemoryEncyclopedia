@@ -2,3 +2,5 @@ external/*
 data/scicode/cache/*
 jobs/*
 test/*
+run/*
+runs/*
